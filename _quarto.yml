@@ -3,13 +3,23 @@ project:
 
 website:
   title: "CapStats"
+  description: "Este texto sirve como ejemplo para ver que hace"
   navbar:
+    title: "CAPSTATS"
+    left: 
+      - text: "Inicio"
+        href: index.qmd
+      - text: "Proyectos"
+        href: Proyectos/index.qmd
+      - text: "Blog"
+        href: Blogs/index.qmd
     right:
       - about.qmd
       - icon: github
-        href: https://github.com/
-      - icon: twitter
-        href: https://twitter.com
+        href: https://github.com/CapStats-ML/CapStats
+      - icon: linkedin
+        href: https://www.linkedin.com/in/cesar-prietosrt/
+
 format:
   html:
     theme: cosmo

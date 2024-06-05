@@ -1,14 +1,14 @@
 ---
 title: "CapStats"
-listing:
-  contents: posts
-  sort: "date desc"
-  type: default
-  categories: true
-  sort-ui: false
-  filter-ui: false
 page-layout: full
 title-block-banner: true
 ---
 
+
+
+## Sobre mi
+
+Está página es un proyecto personal creado por mi persona Cesar Prieto bajo el seudonimo de CapStats con el fin de hacer difusion y dibulgacion del conocimiento estadistico adquirido durante el tiempo transcurrido en el pregrado de Estadistica en la Universidad Nacional de Colombia y sobre todo en el idioma español dado que la mayaoria de los recursos se encuentran en ingles y no hay mejor opcion para aprender algo nuevo que en nuestro idioma original.
+
+La finalidad de este, es poder mostrar de una forma abierta al mundo los conocimientos sobre estadistica, analisis de datos, Machine Learning y otros, de forma que cualquier que esta pagina sirva de guia, ayuda u ejemplo para otros y de esta manera incentivar el estudio de los temas aqui encontrados.
 
