@@ -1,7 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://capstats-ml.github.io/CapStats/Proyectos/index.html</loc>
+    <lastmod>2024-06-05T16:03:56.668Z</lastmod>
+  </url>
+  <url>
     <loc>https://capstats-ml.github.io/CapStats/index.html</loc>
     <lastmod>2024-06-06T19:09:26.732Z</lastmod>
+  </url>
+  <url>
+    <loc>https://capstats-ml.github.io/CapStats/Blogs/index.html</loc>
+    <lastmod>2024-06-05T19:19:16.037Z</lastmod>
+  </url>
+  <url>
+    <loc>https://capstats-ml.github.io/CapStats/about.html</loc>
+    <lastmod>2024-06-05T15:31:06.606Z</lastmod>
+  </url>
+  <url>
+    <loc>https://capstats-ml.github.io/CapStats/Blogs/about.html</loc>
+    <lastmod>2024-06-05T17:13:17.687Z</lastmod>
+  </url>
+  <url>
+    <loc>https://capstats-ml.github.io/CapStats/Blogs/post1.html</loc>
+    <lastmod>2024-06-05T19:19:13.197Z</lastmod>
+  </url>
+  <url>
+    <loc>https://capstats-ml.github.io/CapStats/Proyectos/about.html</loc>
+    <lastmod>2024-06-05T16:04:12.929Z</lastmod>
   </url>
 </urlset>
