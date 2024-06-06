@@ -22,8 +22,10 @@ website:
 
 format:
   html:
-    theme: cosmo
+    theme: Litera
     css: styles.css
+    gh-pages:
+      repo: "CapStats-ML/CapStats"
 
 
 

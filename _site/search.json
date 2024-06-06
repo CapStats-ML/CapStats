@@ -1,75 +1,5 @@
 [
   {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "Welcome To My Blog",
-    "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "CapStats",
-    "section": "",
-    "text": "Está página es un proyecto personal creado por mi persona Cesar Prieto bajo el seudonimo de CapStats con el fin de hacer difusion y dibulgacion del conocimiento estadistico adquirido durante el tiempo transcurrido en el pregrado de Estadistica en la Universidad Nacional de Colombia y sobre todo en el idioma español dado que la mayaoria de los recursos se encuentran en ingles y no hay mejor opcion para aprender algo nuevo que en nuestro idioma original.\nLa finalidad de este, es poder mostrar de una forma abierta al mundo los conocimientos sobre estadistica, analisis de datos, Machine Learning y otros, de forma que cualquier que esta pagina sirva de guia, ayuda u ejemplo para otros y de esta manera incentivar el estudio de los temas aqui encontrados."
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this blog"
-  },
-  {
-    "objectID": "posts/post-with-code/index.html",
-    "href": "posts/post-with-code/index.html",
-    "title": "Post With Code",
-    "section": "",
-    "text": "This is a post with executable code."
-  },
-  {
-    "objectID": "post/index.html",
-    "href": "post/index.html",
-    "title": "Mi Primer Post",
-    "section": "",
-    "text": "Este es mi primer post en el blog. Aquí hablaré sobre…\n\n\nContenido de la primera sección…\n\n\n\nContenido de la segunda sección…"
-  },
-  {
-    "objectID": "post/index.html#sección-1",
-    "href": "post/index.html#sección-1",
-    "title": "Mi Primer Post",
-    "section": "",
-    "text": "Contenido de la primera sección…"
-  },
-  {
-    "objectID": "post/index.html#sección-2",
-    "href": "post/index.html#sección-2",
-    "title": "Mi Primer Post",
-    "section": "",
-    "text": "Contenido de la segunda sección…"
-  },
-  {
-    "objectID": "post/about.html",
-    "href": "post/about.html",
-    "title": "Mi Primer Post",
-    "section": "",
-    "text": "Este es mi primer post en el blog. Aquí hablaré sobre…\n\n\nContenido de la primera sección…\n\n\n\nContenido de la segunda sección…"
-  },
-  {
-    "objectID": "post/about.html#sección-1",
-    "href": "post/about.html#sección-1",
-    "title": "Mi Primer Post",
-    "section": "",
-    "text": "Contenido de la primera sección…"
-  },
-  {
-    "objectID": "post/about.html#sección-2",
-    "href": "post/about.html#sección-2",
-    "title": "Mi Primer Post",
-    "section": "",
-    "text": "Contenido de la segunda sección…"
-  },
-  {
     "objectID": "Proyectos/index.html",
     "href": "Proyectos/index.html",
     "title": "Mi Primer Post",
@@ -91,6 +21,20 @@
     "text": "Contenido de la segunda sección…"
   },
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "CapStats",
+    "section": "",
+    "text": "Está página es un proyecto personal creado por mi persona Cesar Prieto bajo el seudonimo de CapStats con el fin de hacer difusion y dibulgacion del conocimiento estadistico adquirido durante el tiempo transcurrido en el pregrado de Estadistica en la Universidad Nacional de Colombia y sobre todo en el idioma español dado que la mayaoria de los recursos se encuentran en ingles y no hay mejor opcion para aprender algo nuevo que en nuestro idioma original.\nLa finalidad de este, es poder mostrar de una forma abierta al mundo los conocimientos sobre estadistica, analisis de datos, Machine Learning y otros, de forma que cualquier que esta pagina sirva de guia, ayuda u ejemplo para otros y de esta manera incentivar el estudio de los temas aqui encontrados."
+  },
+  {
+    "objectID": "index.html#sobre-mi",
+    "href": "index.html#sobre-mi",
+    "title": "CapStats",
+    "section": "",
+    "text": "Está página es un proyecto personal creado por mi persona Cesar Prieto bajo el seudonimo de CapStats con el fin de hacer difusion y dibulgacion del conocimiento estadistico adquirido durante el tiempo transcurrido en el pregrado de Estadistica en la Universidad Nacional de Colombia y sobre todo en el idioma español dado que la mayaoria de los recursos se encuentran en ingles y no hay mejor opcion para aprender algo nuevo que en nuestro idioma original.\nLa finalidad de este, es poder mostrar de una forma abierta al mundo los conocimientos sobre estadistica, analisis de datos, Machine Learning y otros, de forma que cualquier que esta pagina sirva de guia, ayuda u ejemplo para otros y de esta manera incentivar el estudio de los temas aqui encontrados."
+  },
+  {
     "objectID": "Blogs/index.html",
     "href": "Blogs/index.html",
     "title": "Blogs",
@@ -98,18 +42,11 @@
     "text": "Blogs\nBienvenido a la sección de Blogs. Aquí encontrarás todas mis publicaciones."
   },
   {
-    "objectID": "Blogs/index.html#sección-1",
-    "href": "Blogs/index.html#sección-1",
-    "title": "Mi Primer Post",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
     "section": "",
-    "text": "Contenido de la primera sección…"
-  },
-  {
-    "objectID": "Blogs/index.html#sección-2",
-    "href": "Blogs/index.html#sección-2",
-    "title": "Mi Primer Post",
-    "section": "",
-    "text": "Contenido de la segunda sección…"
+    "text": "About this blog"
   },
   {
     "objectID": "Blogs/about.html",
@@ -119,15 +56,22 @@
     "text": "Blogs\n\n\n&lt;a href=\"post1.html\"&gt;&lt;img src=\"post1-thumbnail.jpg\" alt=\"Miniatura de Mi Primer Post\"&gt;&lt;/a&gt;\n&lt;!-- Agrega más miniaturas y enlaces según sea necesario --&gt;"
   },
   {
-    "objectID": "Blogs/about.html#sección-1",
-    "href": "Blogs/about.html#sección-1",
+    "objectID": "Blogs/post1.html",
+    "href": "Blogs/post1.html",
+    "title": "Mi Primer Post",
+    "section": "",
+    "text": "Este es mi primer post en el blog. Aquí hablaré sobre…\n\n\nContenido de la primera sección…\n\n\n\nContenido de la segunda sección…"
+  },
+  {
+    "objectID": "Blogs/post1.html#sección-1",
+    "href": "Blogs/post1.html#sección-1",
     "title": "Mi Primer Post",
     "section": "",
     "text": "Contenido de la primera sección…"
   },
   {
-    "objectID": "Blogs/about.html#sección-2",
-    "href": "Blogs/about.html#sección-2",
+    "objectID": "Blogs/post1.html#sección-2",
+    "href": "Blogs/post1.html#sección-2",
     "title": "Mi Primer Post",
     "section": "",
     "text": "Contenido de la segunda sección…"
@@ -149,34 +93,6 @@
   {
     "objectID": "Proyectos/about.html#sección-2",
     "href": "Proyectos/about.html#sección-2",
-    "title": "Mi Primer Post",
-    "section": "",
-    "text": "Contenido de la segunda sección…"
-  },
-  {
-    "objectID": "index.html#sobre-mi",
-    "href": "index.html#sobre-mi",
-    "title": "CapStats",
-    "section": "",
-    "text": "Está página es un proyecto personal creado por mi persona Cesar Prieto bajo el seudonimo de CapStats con el fin de hacer difusion y dibulgacion del conocimiento estadistico adquirido durante el tiempo transcurrido en el pregrado de Estadistica en la Universidad Nacional de Colombia y sobre todo en el idioma español dado que la mayaoria de los recursos se encuentran en ingles y no hay mejor opcion para aprender algo nuevo que en nuestro idioma original.\nLa finalidad de este, es poder mostrar de una forma abierta al mundo los conocimientos sobre estadistica, analisis de datos, Machine Learning y otros, de forma que cualquier que esta pagina sirva de guia, ayuda u ejemplo para otros y de esta manera incentivar el estudio de los temas aqui encontrados."
-  },
-  {
-    "objectID": "Blogs/post1.html",
-    "href": "Blogs/post1.html",
-    "title": "Mi Primer Post",
-    "section": "",
-    "text": "Este es mi primer post en el blog. Aquí hablaré sobre…\n\n\nContenido de la primera sección…\n\n\n\nContenido de la segunda sección…"
-  },
-  {
-    "objectID": "Blogs/post1.html#sección-1",
-    "href": "Blogs/post1.html#sección-1",
-    "title": "Mi Primer Post",
-    "section": "",
-    "text": "Contenido de la primera sección…"
-  },
-  {
-    "objectID": "Blogs/post1.html#sección-2",
-    "href": "Blogs/post1.html#sección-2",
     "title": "Mi Primer Post",
     "section": "",
     "text": "Contenido de la segunda sección…"
