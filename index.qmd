@@ -1,14 +1,36 @@
 ---
-title: "CapStats"
-page-layout: full
-title-block-banner: true
+title: ""
+format: html
 ---
 
+# Bienvenidos a CapStats
 
+## Explorando el Mundo de la Estadística y el Análisis de Datos
 
-## Sobre mi
+Bienvenidos a CapStats, un proyecto personal. Este sitio nace con el propósito de difundir y divulgar el conocimiento estadístico que he adquirido durante mis estudios de pregrado en Estadística en la Universidad Nacional de Colombia.
 
-Está página es un proyecto personal creado por mi persona Cesar Prieto bajo el seudonimo de CapStats con el fin de hacer difusion y dibulgacion del conocimiento estadistico adquirido durante el tiempo transcurrido en el pregrado de Estadistica en la Universidad Nacional de Colombia y sobre todo en el idioma español dado que la mayaoria de los recursos se encuentran en ingles y no hay mejor opcion para aprender algo nuevo que en nuestro idioma original.
+# Un poco sobre mi
 
-La finalidad de este, es poder mostrar de una forma abierta al mundo los conocimientos sobre estadistica, analisis de datos, Machine Learning y otros, de forma que cualquier que esta pagina sirva de guia, ayuda u ejemplo para otros y de esta manera incentivar el estudio de los temas aqui encontrados.
+![](your-photo.jpg){ width=150px style="float: left; margin-right: 20px;" }
 
+Soy estudiante de último año de Estadística en la Universidad Nacional de Colombia, sede Bogotá, con gran entusiasmo por el mundo de la estadística, el análisis de datos y el Machine Learning. Mi objetivo principal es ofrecer recursos en español, dado que la mayoría de la información disponible sobre estos temas está en inglés. Creo firmemente que aprender en nuestro idioma facilita la comprensión y el aprendizaje de conceptos nuevos.
+
+En CapStats encontrarás conocimientos sobre estadística, análisis de datos, machine learning y más, presentados de una manera accesible y abierta. Espero que esta página sirva como guía, ayuda y ejemplo para todos aquellos interesados en estos campos, incentivando así el estudio y la profundización en estos temas apasionantes.
+
+# Nuestros Objetivos
+
+- Difundir el conocimiento estadístico
+- Proveer recursos accesibles en español
+- Apoyar el aprendizaje autodidacta
+
+# Recursos
+
+Descripción de los recursos disponibles como tutoriales, artículos, ejemplos prácticos, etc.
+
+[Ver más recursos](#resource-link)
+
+# Blog
+
+Resumen de los últimos artículos publicados.
+
+[Leer más en el blog](#blog-link)

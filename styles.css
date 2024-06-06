@@ -1,78 +1,98 @@
 /* Estilo general */
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #1a1a1a; /* Gris oscuro */
-    color: #ffffff; /* Color de texto blanco */
-    margin: 0;
-    padding: 0;
-  }
-  
-  /* Contenedor principal */
-  .container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-  }
-  
-  /* Encabezados */
-  h1, h2, h3, h4, h5, h6 {
-    font-family: 'Roboto', Arial, sans-serif;
-    color: #ffffff; /* Color de texto blanco */
-  }
-  
-  /* Enlaces */
-  a {
-    color: #ffffff; /* Color de enlace blanco */
-    text-decoration: none;
-  }
-  
-  a:hover {
-    text-decoration: underline;
-  }
-  
-  /* Botones */
-  .button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #4CAF50; /* Verde */
-    color: #ffffff; /* Color de texto blanco */
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  .button:hover {
-    background-color: #45a049; /* Verde más oscuro al pasar el mouse */
-  }
-  
-  /* Imágenes */
-  img {
-    max-width: 100%;
-    height: auto;
-  }
-  
-  /* Formularios */
-  input[type="text"], textarea {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-    border: 2px solid #4CAF50; /* Verde */
-    border-radius: 4px;
-    resize: none;
-  }
-  
-  input[type="submit"] {
-    background-color: #4CAF50; /* Verde */
-    color: #ffffff; /* Color de texto blanco */
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  input[type="submit"]:hover {
-    background-color: #45a049; /* Verde más oscuro al pasar el mouse */
-  }
-  
+
+/*Estilo de la barra superior*/
+
+.navbar {
+  background-color: #f8f9fa; /* Cambia el color de fondo de la barra de navegación */
+}
+
+.nav-link.active {
+  font-weight: bold; /* Hace que el enlace activo tenga un texto en negrita */
+}
+
+.navbar-toggler-icon {
+  background-image: url('data:image/svg+xml;charset=utf8,%3Csvg xmlns%3D%27http://www.w3.org/2000/svg%27 viewBox%3D%270 0 30 30%27%3E%3Cpath stroke%3D%27rgba%280, 0, 0, 0.5%27 stroke-width%3D%272%27 linecap%3D%27round%27 linejoin%3D%27round%27 d%3D%27M4 7h22M4 15h22M4 23h22%27/%3E%3C/svg%3E'); /* Personaliza el icono del toggler */
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+
+
+/* Botones con borde y texto personalizados */
+.btn-outline-primary {
+  border-color: #007bff;
+  color: #007bff;
+}
+.btn-outline-primary:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+.btn-outline-secondary {
+  border-color: #6c757d;
+  color: #6c757d;
+}
+.btn-outline-secondary:hover {
+  background-color: #6c757d;
+  color: white;
+}
+
+.btn-outline-success {
+  border-color: #28a745;
+  color: #28a745;
+}
+.btn-outline-success:hover {
+  background-color: #28a745;
+  color: white;
+}
+
+.btn-outline-info {
+  border-color: #17a2b8;
+  color: #17a2b8;
+}
+.btn-outline-info:hover {
+  background-color: #17a2b8;
+  color: white;
+}
+
+.btn-outline-warning {
+  border-color: #ffc107;
+  color: #ffc107;
+}
+.btn-outline-warning:hover {
+  background-color: #ffc107;
+  color: white;
+}
+
+.btn-outline-danger {
+  border-color: #dc3545;
+  color: #dc3545;
+}
+.btn-outline-danger:hover {
+  background-color: #dc3545;
+  color: white;
+}
+
+.btn-outline-light {
+  border-color: #f8f9fa;
+  color: #f8f9fa;
+}
+.btn-outline-light:hover {
+  background-color: #f8f9fa;
+  color: #212529;
+}
+
+.btn-outline-dark {
+  border-color: #343a40;
+  color: #343a40;
+}
+.btn-outline-dark:hover {
+  background-color: #343a40;
+  color: white;
+}
+
+
+

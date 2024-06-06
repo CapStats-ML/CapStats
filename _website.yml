@@ -1,0 +1,22 @@
+website:
+  title: "CAPSTATS"
+  site-url: https://capstats-ml.github.io/CapStats/
+  description: "En un mundo lleno de datos"
+  #favicon: favicon.ico Es el icono en la pestaña web
+  navbar:
+    title: "CAPSTATS"
+    left: 
+      - text: "Inicio"
+        href: index.qmd
+      - text: "Proyectos"
+        href: Proyectos/index.qmd
+      - text: "Blog"
+        href: Blogs/index.qmd
+    right:
+      - about.qmd
+      - icon: github
+        href: https://github.com/CapStats-ML/CapStats
+      - icon: linkedin
+        href: https://www.linkedin.com/in/cesar-prietosrt/
+  page-footer:
+    left: "[CapStats](https://capstats-ml.github.io/CapStats/) \n © 2024 CapStats by Cesar Prieto"

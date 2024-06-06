@@ -23,16 +23,16 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "CapStats",
+    "title": "Bienvenidos a CapStats",
     "section": "",
-    "text": "Está página es un proyecto personal creado por mi persona Cesar Prieto bajo el seudonimo de CapStats con el fin de hacer difusion y dibulgacion del conocimiento estadistico adquirido durante el tiempo transcurrido en el pregrado de Estadistica en la Universidad Nacional de Colombia y sobre todo en el idioma español dado que la mayaoria de los recursos se encuentran en ingles y no hay mejor opcion para aprender algo nuevo que en nuestro idioma original.\nLa finalidad de este, es poder mostrar de una forma abierta al mundo los conocimientos sobre estadistica, analisis de datos, Machine Learning y otros, de forma que cualquier que esta pagina sirva de guia, ayuda u ejemplo para otros y de esta manera incentivar el estudio de los temas aqui encontrados."
+    "text": "Bienvenidos a CapStats, un proyecto personal. Este sitio nace con el propósito de difundir y divulgar el conocimiento estadístico que he adquirido durante mis estudios de pregrado en Estadística en la Universidad Nacional de Colombia."
   },
   {
     "objectID": "index.html#sobre-mi",
     "href": "index.html#sobre-mi",
     "title": "CapStats",
     "section": "",
-    "text": "Está página es un proyecto personal creado por mi persona Cesar Prieto bajo el seudonimo de CapStats con el fin de hacer difusion y dibulgacion del conocimiento estadistico adquirido durante el tiempo transcurrido en el pregrado de Estadistica en la Universidad Nacional de Colombia y sobre todo en el idioma español dado que la mayaoria de los recursos se encuentran en ingles y no hay mejor opcion para aprender algo nuevo que en nuestro idioma original.\nLa finalidad de este, es poder mostrar de una forma abierta al mundo los conocimientos sobre estadistica, analisis de datos, Machine Learning y otros, de forma que cualquier que esta pagina sirva de guia, ayuda u ejemplo para otros y de esta manera incentivar el estudio de los temas aqui encontrados."
+    "text": "Bienvenidos a CapStats, un proyecto personal creado por mí, César Prieto, bajo el seudónimo de CapStats. Este sitio nace con el propósito de difundir y divulgar el conocimiento estadístico que he adquirido durante mis estudios de pregrado en Estadística en la Universidad Nacional de Colombia.\nMi objetivo principal es ofrecer recursos en español, dado que la mayoría de la información disponible sobre estos temas está en inglés. Creo firmemente que aprender en nuestro idioma facilita la comprensión y el aprendizaje de conceptos nuevos.\nEn CapStats encontrarás conocimientos sobre estadística, análisis de datos, machine learning y más, presentados de una manera accesible y abierta. Espero que esta página sirva como guía, ayuda y ejemplo para todos aquellos interesados en estos campos, incentivando así el estudio y la profundización en estos temas apasionantes."
   },
   {
     "objectID": "Blogs/index.html",
@@ -96,5 +96,19 @@
     "title": "Mi Primer Post",
     "section": "",
     "text": "Contenido de la segunda sección…"
+  },
+  {
+    "objectID": "index.html#explorando-el-mundo-de-la-estadística-y-el-análisis-de-datos",
+    "href": "index.html#explorando-el-mundo-de-la-estadística-y-el-análisis-de-datos",
+    "title": "Bienvenidos a CapStats",
+    "section": "",
+    "text": "Bienvenidos a CapStats, un proyecto personal. Este sitio nace con el propósito de difundir y divulgar el conocimiento estadístico que he adquirido durante mis estudios de pregrado en Estadística en la Universidad Nacional de Colombia."
+  },
+  {
+    "objectID": "footer.html",
+    "href": "footer.html",
+    "title": "Footer",
+    "section": "",
+    "text": "&lt;div class=\"row\"&gt;\n  &lt;div class=\"col-md-6\"&gt;\n    &lt;h2&gt;Contacto&lt;/h2&gt;\n    &lt;p&gt;Contacto: &lt;a href=\"mailto:ceprrieto@unal.edu.co\"&gt;ceprrieto@unal.edu.co&lt;/a&gt;&lt;/p&gt;\n    &lt;p&gt;Redes Sociales:&lt;/p&gt;\n    &lt;ul&gt;\n      &lt;li&gt;&lt;a href=\"#\"&gt;Linkedin&lt;/a&gt;&lt;/li&gt;\n      &lt;li&gt;&lt;a href=\"#\"&gt;GitHub&lt;/a&gt;&lt;/li&gt;\n      &lt;li&gt;&lt;a href=\"#\"&gt;Twitter&lt;/a&gt;&lt;/li&gt;\n    &lt;/ul&gt;\n  &lt;/div&gt;\n  &lt;div class=\"col-md-6\"&gt;\n    &lt;p&gt;&copy; 2024 CapStats. Todos los derechos reservados.&lt;/p&gt;\n  &lt;/div&gt;\n&lt;/div&gt;"
   }
 ]
