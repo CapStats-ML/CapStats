@@ -79,9 +79,30 @@
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About",
+    "title": "Cesar Prieto",
     "section": "",
-    "text": "About this blog"
+    "text": "Soy estudiante de último año de Estadística en la Universidad Nacional de Colombia, sede Bogotá, con gran entusiasmo por el mundo de la estadística, el análisis de datos y el Machine Learning, la idea de este proyecto es crecer y continuar aprendiendo en el proceso.\nCreo firmemente en que los datos con buenas practicas y aplicacion estadistica son parte fundamental de la toma de desiciones en cualquier area del conocimiento.\n\n\nUniversidad Nacional de Colombia | Bogotá DC. CO Pregrado en Ciencias Estadistica | Finalizacion 2025\n\n\n\n\nLenguajes de programación: R, Python\nFrameworks y Librerías: Scikit-learn, TensorFlow, Pandas, NumPy, Dplyr, Igraph\nAnálisis de Datos y Visualización: RStudio, Jupyter Notebook, Matplotlib, Seaborn, Plotly\nMachine Learning y AI: Modelado predictivo, regresión, clasificación, clustering\nBases de datos: PostgreSQL\nHerramientas: Git, VS Code, Conda\n\n\n\n\nSeries de Tiempo | Redes de interaccion | Modelado | Analisis Multivariado | Machine Learning | IA\n\n\n\n \n  \n   \n  \n    \n     twitter\n  \n  \n    \n     Github\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     Email"
+  },
+  {
+    "objectID": "about.html#educacion",
+    "href": "about.html#educacion",
+    "title": "Cesar Prieto",
+    "section": "",
+    "text": "Universidad Nacional de Colombia | Bogotá DC. CO Pregrado en Ciencias Estadistica | Finalizacion 2025"
+  },
+  {
+    "objectID": "about.html#habilidades",
+    "href": "about.html#habilidades",
+    "title": "Cesar Prieto",
+    "section": "",
+    "text": "Lenguajes de programación: R, Python\nFrameworks y Librerías: Scikit-learn, TensorFlow, Pandas, NumPy, Dplyr, Igraph\nAnálisis de Datos y Visualización: RStudio, Jupyter Notebook, Matplotlib, Seaborn, Plotly\nMachine Learning y AI: Modelado predictivo, regresión, clasificación, clustering\nBases de datos: PostgreSQL\nHerramientas: Git, VS Code, Conda"
+  },
+  {
+    "objectID": "about.html#campos-de-interes-y-desarrollo",
+    "href": "about.html#campos-de-interes-y-desarrollo",
+    "title": "Cesar Prieto",
+    "section": "",
+    "text": "Series de Tiempo | Redes de interaccion | Modelado | Analisis Multivariado | Machine Learning | IA"
   },
   {
     "objectID": "Blogs/index.html",
@@ -93,30 +114,16 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Bienvenidos a CapStats",
+    "title": "Bienvenidos a CAPSTATS",
     "section": "",
-    "text": "Bienvenidos a CapStats, un proyecto personal. Este sitio nace con el propósito de difundir y divulgar el conocimiento estadístico que he adquirido durante mis estudios de pregrado en Estadística en la Universidad Nacional de Colombia."
+    "text": "Bienvenidos a CAPSTATS, un proyecto personal dedicado a la difusión y divulgación del conocimiento estadístico. Este sitio nace con el propósito de compartir y expandir el saber adquirido durante mis estudios de pregrado en Estadística en la Universidad Nacional de Colombia.\nCAPSTATS es más que un simple blog; es un espacio donde encontrarás una variedad de recursos y proyectos relacionados con la estadística. Aquí podrás explorar artículos sobre métodos estadísticos, análisis de datos, y aplicaciones prácticas en diversas áreas. Mi objetivo es hacer accesible y comprensible la estadística, tanto para estudiantes como para profesionales interesados en esta disciplina.\nA través de este sitio, quiero contribuir al desarrollo de una comunidad de aprendizaje donde el conocimiento estadístico se comparta libremente y se fomente el intercambio de ideas y proyectos. Te invito a navegar por las diferentes secciones de CAPSTATS, donde encontrarás:\nEspero que encuentres este sitio útil e inspirador. ¡Bienvenido a la comunidad CAPSTATS!"
   },
   {
     "objectID": "index.html#proyectos-destacados",
     "href": "index.html#proyectos-destacados",
-    "title": "Bienvenidos a CapStats",
+    "title": "Bienvenidos a CAPSTATS",
     "section": "Proyectos Destacados",
     "text": "Proyectos Destacados\nAquí algunos de mis proyectos más interesantes:\n\n[Time-Series] - Se desarrollo en compañia de un grupo de trabajo el proyecto final de la asignatura de Series de Tiempo.\n\nTecnologías: [R, Python, Scikit-learn, TensorFlow, Pandas, NumPy]\nEnlace al repositorio\n\n[Social_Networks] - Se desarrollo en compañia de Alejandro Urrego todo el trabajo de la asignatura de Analisis Estadistico de Redes Sociales con el enfoque de grafos de relacionales\n\nTecnologías: [R, Python, Conda, Igraph (Tanto en R como en Python), Networkx]\nEnlace al repositorio"
-  },
-  {
-    "objectID": "index.html#habilidades",
-    "href": "index.html#habilidades",
-    "title": "Bienvenidos a CapStats",
-    "section": "Habilidades",
-    "text": "Habilidades\n\nLenguajes de programación: R, Python\nFrameworks y Librerías: Scikit-learn, TensorFlow, Pandas, NumPy, Dplyr, Igraph\nAnálisis de Datos y Visualización: RStudio, Jupyter Notebook, Matplotlib, Seaborn, Plotly\nMachine Learning y AI: Modelado predictivo, regresión, clasificación, clustering\nBases de datos: PostgreSQL\nHerramientas: Git, VS Code, Conda"
-  },
-  {
-    "objectID": "index.html#educación",
-    "href": "index.html#educación",
-    "title": "Bienvenidos a CapStats",
-    "section": "Educación",
-    "text": "Educación\nUniversidad Nacional de Colombia Pregrado en Estadística\n\nCursos relevantes:\n\n[Metodos Multivariados]\n[Analisis Estadistico de Redes Sociales]\n[Analisis de Regresion]\n[Series de Tiempo]\n[Teoria Estadistica del Riesgo]\n[Metodos no Parametricos] etc\n\n[Educacion Virtual]:\n\n[Conviertete en Data Analyst - LinkedIn]\n[Kaggle Learn Complete - Kaggle]"
   },
   {
     "objectID": "Proyectos/about.html",
