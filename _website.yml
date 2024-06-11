@@ -2,12 +2,16 @@ website:
   title: "CAPSTATS"
   site-url: https://capstats-ml.github.io/CapStats/
   description: "En un mundo lleno de datos"
+  repo-url: https://github.com/CapStats-ML/CapStats
+  repo-actions: [issue]
   #favicon: favicon.ico Es el icono en la pestaña web
   navbar:
     title: "CAPSTATS"
     left: 
       - text: "Inicio"
         href: index.qmd
+      - text: "Resumenes"
+        href: Resumenes/index.qmd
       - text: "Proyectos"
         href: Proyectos/index.qmd
       - text: "Blog"
@@ -19,4 +23,17 @@ website:
       - icon: linkedin
         href: https://www.linkedin.com/in/cesar-prietosrt/
   page-footer:
-    left: "[CapStats](https://capstats-ml.github.io/CapStats/) \n © 2024 CapStats by Cesar Prieto"
+    background: black
+    left: |
+      **Contact Details:** 
+
+      - **Ubicación:** [Dirección](https://maps.google.com/?q=tu_dirección)
+      - **Correo:** [correo@example.com](mailto:correo@example.com)
+      - **Contacto:** [Nombre del Contacto](tel:+1234567890)
+      - **Redes Sociales:** 
+        - [GitHub](https://github.com/CapStats-ML/CapStats)
+        - [LinkedIn](https://www.linkedin.com/in/cesar-prietosrt/)
+        - [Twitter](https://www.linkedin.com/in/cesar-prietosrt/)
+        
+      **© 2024 CapStats by Cesar Prieto**
+    right: "" # Puedes dejar esto vacío o agregar más contenido aquí

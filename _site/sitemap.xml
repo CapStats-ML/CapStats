@@ -1,35 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://capstats-ml.github.io/CapStats/Resumenes/index.html</loc>
+    <lastmod>2024-06-07T21:37:07.171Z</lastmod>
+  </url>
+  <url>
     <loc>https://capstats-ml.github.io/CapStats/Proyectos/index.html</loc>
-    <lastmod>2024-06-06T23:42:11.334Z</lastmod>
+    <lastmod>2024-06-07T00:17:58.022Z</lastmod>
   </url>
   <url>
     <loc>https://capstats-ml.github.io/CapStats/LICENSE.html</loc>
-    <lastmod>2024-06-06T23:34:45.781Z</lastmod>
+    <lastmod>2024-06-07T00:17:58.022Z</lastmod>
   </url>
   <url>
     <loc>https://capstats-ml.github.io/CapStats/Blogs/post1.html</loc>
-    <lastmod>2024-06-06T23:42:11.334Z</lastmod>
+    <lastmod>2024-06-07T00:17:58.022Z</lastmod>
   </url>
   <url>
     <loc>https://capstats-ml.github.io/CapStats/Blogs/about.html</loc>
-    <lastmod>2024-06-06T23:42:11.334Z</lastmod>
+    <lastmod>2024-06-07T00:17:58.022Z</lastmod>
   </url>
   <url>
     <loc>https://capstats-ml.github.io/CapStats/about.html</loc>
-    <lastmod>2024-06-06T23:42:11.381Z</lastmod>
+    <lastmod>2024-06-07T00:17:58.072Z</lastmod>
   </url>
   <url>
     <loc>https://capstats-ml.github.io/CapStats/Blogs/index.html</loc>
-    <lastmod>2024-06-06T23:42:11.334Z</lastmod>
+    <lastmod>2024-06-07T00:17:58.022Z</lastmod>
   </url>
   <url>
     <loc>https://capstats-ml.github.io/CapStats/index.html</loc>
-    <lastmod>2024-06-06T23:34:45.781Z</lastmod>
+    <lastmod>2024-06-11T14:59:46.457Z</lastmod>
   </url>
   <url>
     <loc>https://capstats-ml.github.io/CapStats/Proyectos/about.html</loc>
-    <lastmod>2024-06-06T23:42:11.334Z</lastmod>
+    <lastmod>2024-06-07T00:17:58.022Z</lastmod>
+  </url>
+  <url>
+    <loc>https://capstats-ml.github.io/CapStats/Resumenes/about.html</loc>
+    <lastmod>2024-06-07T21:37:00.730Z</lastmod>
   </url>
 </urlset>

@@ -1,5 +1,26 @@
 [
   {
+    "objectID": "Resumenes/index.html",
+    "href": "Resumenes/index.html",
+    "title": "Mi Primer Post",
+    "section": "",
+    "text": "Este es mi primer post en el blog. Aquí hablaré sobre…\n\n\nContenido de la primera sección…\n\n\n\nContenido de la segunda sección…"
+  },
+  {
+    "objectID": "Resumenes/index.html#sección-1",
+    "href": "Resumenes/index.html#sección-1",
+    "title": "Mi Primer Post",
+    "section": "",
+    "text": "Contenido de la primera sección…"
+  },
+  {
+    "objectID": "Resumenes/index.html#sección-2",
+    "href": "Resumenes/index.html#sección-2",
+    "title": "Mi Primer Post",
+    "section": "",
+    "text": "Contenido de la segunda sección…"
+  },
+  {
     "objectID": "Proyectos/index.html",
     "href": "Proyectos/index.html",
     "title": "Mi Primer Post",
@@ -77,11 +98,25 @@
     "text": "Bienvenidos a CapStats, un proyecto personal. Este sitio nace con el propósito de difundir y divulgar el conocimiento estadístico que he adquirido durante mis estudios de pregrado en Estadística en la Universidad Nacional de Colombia."
   },
   {
-    "objectID": "index.html#explorando-el-mundo-de-la-estadística-y-el-análisis-de-datos",
-    "href": "index.html#explorando-el-mundo-de-la-estadística-y-el-análisis-de-datos",
+    "objectID": "index.html#proyectos-destacados",
+    "href": "index.html#proyectos-destacados",
     "title": "Bienvenidos a CapStats",
-    "section": "",
-    "text": "Bienvenidos a CapStats, un proyecto personal. Este sitio nace con el propósito de difundir y divulgar el conocimiento estadístico que he adquirido durante mis estudios de pregrado en Estadística en la Universidad Nacional de Colombia."
+    "section": "Proyectos Destacados",
+    "text": "Proyectos Destacados\nAquí algunos de mis proyectos más interesantes:\n\n[Time-Series] - Se desarrollo en compañia de un grupo de trabajo el proyecto final de la asignatura de Series de Tiempo.\n\nTecnologías: [R, Python, Scikit-learn, TensorFlow, Pandas, NumPy]\nEnlace al repositorio\n\n[Social_Networks] - Se desarrollo en compañia de Alejandro Urrego todo el trabajo de la asignatura de Analisis Estadistico de Redes Sociales con el enfoque de grafos de relacionales\n\nTecnologías: [R, Python, Conda, Igraph (Tanto en R como en Python), Networkx]\nEnlace al repositorio"
+  },
+  {
+    "objectID": "index.html#habilidades",
+    "href": "index.html#habilidades",
+    "title": "Bienvenidos a CapStats",
+    "section": "Habilidades",
+    "text": "Habilidades\n\nLenguajes de programación: R, Python\nFrameworks y Librerías: Scikit-learn, TensorFlow, Pandas, NumPy, Dplyr, Igraph\nAnálisis de Datos y Visualización: RStudio, Jupyter Notebook, Matplotlib, Seaborn, Plotly\nMachine Learning y AI: Modelado predictivo, regresión, clasificación, clustering\nBases de datos: PostgreSQL\nHerramientas: Git, VS Code, Conda"
+  },
+  {
+    "objectID": "index.html#educación",
+    "href": "index.html#educación",
+    "title": "Bienvenidos a CapStats",
+    "section": "Educación",
+    "text": "Educación\nUniversidad Nacional de Colombia Pregrado en Estadística\n\nCursos relevantes:\n\n[Metodos Multivariados]\n[Analisis Estadistico de Redes Sociales]\n[Analisis de Regresion]\n[Series de Tiempo]\n[Teoria Estadistica del Riesgo]\n[Metodos no Parametricos] etc\n\n[Educacion Virtual]:\n\n[Conviertete en Data Analyst - LinkedIn]\n[Kaggle Learn Complete - Kaggle]"
   },
   {
     "objectID": "Proyectos/about.html",
@@ -100,6 +135,27 @@
   {
     "objectID": "Proyectos/about.html#sección-2",
     "href": "Proyectos/about.html#sección-2",
+    "title": "Mi Primer Post",
+    "section": "",
+    "text": "Contenido de la segunda sección…"
+  },
+  {
+    "objectID": "Resumenes/about.html",
+    "href": "Resumenes/about.html",
+    "title": "Mi Primer Post",
+    "section": "",
+    "text": "Este es mi primer post en el blog. Aquí hablaré sobre…\n\n\nContenido de la primera sección…\n\n\n\nContenido de la segunda sección…"
+  },
+  {
+    "objectID": "Resumenes/about.html#sección-1",
+    "href": "Resumenes/about.html#sección-1",
+    "title": "Mi Primer Post",
+    "section": "",
+    "text": "Contenido de la primera sección…"
+  },
+  {
+    "objectID": "Resumenes/about.html#sección-2",
+    "href": "Resumenes/about.html#sección-2",
     "title": "Mi Primer Post",
     "section": "",
     "text": "Contenido de la segunda sección…"

@@ -5,8 +5,6 @@ format: html
 
 # Bienvenidos a CapStats
 
-## Explorando el Mundo de la Estadística y el Análisis de Datos
-
 Bienvenidos a CapStats, un proyecto personal. Este sitio nace con el propósito de difundir y divulgar el conocimiento estadístico que he adquirido durante mis estudios de pregrado en Estadística en la Universidad Nacional de Colombia.
 
 # Un poco sobre mi
@@ -17,20 +15,36 @@ Soy estudiante de último año de Estadística en la Universidad Nacional de Col
 
 En CapStats encontrarás conocimientos sobre estadística, análisis de datos, machine learning y más, presentados de una manera accesible y abierta. Espero que esta página sirva como guía, ayuda y ejemplo para todos aquellos interesados en estos campos, incentivando así el estudio y la profundización en estos temas apasionantes.
 
-# Nuestros Objetivos
+## Proyectos Destacados
+Aquí algunos de mis proyectos más interesantes:
 
-- Difundir el conocimiento estadístico
-- Proveer recursos accesibles en español
-- Apoyar el aprendizaje autodidacta
+1. **[Time-Series]** - Se desarrollo en compañia de un grupo de trabajo el proyecto final de la asignatura de Series de Tiempo.
+   - Tecnologías: [R, Python, Scikit-learn, TensorFlow, Pandas, NumPy]
+   - [Enlace al repositorio](https://github.com/CapStats-ML/Time-series)
 
-# Recursos
+2. **[Social_Networks]** - Se desarrollo en compañia de [Alejandro Urrego](https://github.com/aurreg) todo el trabajo de la asignatura de Analisis Estadistico de Redes Sociales con el enfoque de grafos de relacionales
+   - Tecnologías: [R, Python, Conda, Igraph (Tanto en R como en Python), Networkx]
+   - [Enlace al repositorio](https://github.com/CapStats-ML/Social_Networks)
 
-Descripción de los recursos disponibles como tutoriales, artículos, ejemplos prácticos, etc.
+## Habilidades
+- **Lenguajes de programación:** R, Python
+- **Frameworks y Librerías:** Scikit-learn, TensorFlow, Pandas, NumPy, Dplyr, Igraph
+- **Análisis de Datos y Visualización:** RStudio, Jupyter Notebook, Matplotlib, Seaborn, Plotly
+- **Machine Learning y AI:** Modelado predictivo, regresión, clasificación, clustering
+- **Bases de datos:** PostgreSQL
+- **Herramientas:** Git, VS Code, Conda
 
-[Ver más recursos](#resource-link)
+## Educación
+**Universidad Nacional de Colombia** Pregrado en Estadística
 
-# Blog
+  - Cursos relevantes: 
+    - [Metodos Multivariados] 
+    - [Analisis Estadistico de Redes Sociales]
+    - [Analisis de Regresion]
+    - [Series de Tiempo]
+    - [Teoria Estadistica del Riesgo]
+    - [Metodos no Parametricos] etc
 
-Resumen de los últimos artículos publicados.
-
-[Leer más en el blog](#blog-link)
+- **[Educacion Virtual]**: 
+  - [Conviertete en Data Analyst - LinkedIn]
+  - [Kaggle Learn Complete - Kaggle]
