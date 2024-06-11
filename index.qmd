@@ -3,17 +3,22 @@ title: ""
 format: html
 ---
 
-# Bienvenidos a CapStats
 
-Bienvenidos a CapStats, un proyecto personal. Este sitio nace con el propósito de difundir y divulgar el conocimiento estadístico que he adquirido durante mis estudios de pregrado en Estadística en la Universidad Nacional de Colombia.
+<div style="text-align:center">
+# Bienvenidos a CAPSTATS
+</div>
 
-# Un poco sobre mi
+Bienvenidos a CAPSTATS, un proyecto [personal](https://capstats-ml.github.io/CapStats/about.html) dedicado a la difusión y divulgación del conocimiento estadístico. Este sitio nace con el propósito de compartir y expandir el saber adquirido durante mis estudios de pregrado en Estadística en la Universidad Nacional de Colombia.
 
-![](your-photo.jpg){ width=150px style="float: left; margin-right: 20px;" }
+CAPSTATS es más que un simple blog; es un espacio donde encontrarás una variedad de recursos y proyectos relacionados con la estadística. Aquí podrás explorar artículos sobre métodos estadísticos, análisis de datos, y aplicaciones prácticas en diversas áreas. Mi objetivo es hacer accesible y comprensible la estadística, tanto para estudiantes como para profesionales interesados en esta disciplina.
 
-Soy estudiante de último año de Estadística en la Universidad Nacional de Colombia, sede Bogotá, con gran entusiasmo por el mundo de la estadística, el análisis de datos y el Machine Learning. Mi objetivo principal es ofrecer recursos en español, dado que la mayoría de la información disponible sobre estos temas está en inglés. Creo firmemente que aprender en nuestro idioma facilita la comprensión y el aprendizaje de conceptos nuevos.
+A través de este sitio, quiero contribuir al desarrollo de una comunidad de aprendizaje donde el conocimiento estadístico se comparta libremente y se fomente el intercambio de ideas y proyectos. Te invito a navegar por las diferentes secciones de CAPSTATS, donde encontrarás:
 
-En CapStats encontrarás conocimientos sobre estadística, análisis de datos, machine learning y más, presentados de una manera accesible y abierta. Espero que esta página sirva como guía, ayuda y ejemplo para todos aquellos interesados en estos campos, incentivando así el estudio y la profundización en estos temas apasionantes.
+   - **Resumenes:** Síntesis de artículos académicos y textos importantes en el campo de la estadística.
+   - **Proyectos:** Una muestra de los trabajos y proyectos que he realizado, con detalles sobre los métodos y resultados obtenidos.
+   - **Blog:** Publicaciones regulares sobre temas actuales y fundamentales en estadística, análisis de datos y ciencia de datos.
+
+Espero que encuentres este sitio útil e inspirador. ¡Bienvenido a la comunidad CAPSTATS!
 
 ## Proyectos Destacados
 Aquí algunos de mis proyectos más interesantes:
@@ -26,25 +31,3 @@ Aquí algunos de mis proyectos más interesantes:
    - Tecnologías: [R, Python, Conda, Igraph (Tanto en R como en Python), Networkx]
    - [Enlace al repositorio](https://github.com/CapStats-ML/Social_Networks)
 
-## Habilidades
-- **Lenguajes de programación:** R, Python
-- **Frameworks y Librerías:** Scikit-learn, TensorFlow, Pandas, NumPy, Dplyr, Igraph
-- **Análisis de Datos y Visualización:** RStudio, Jupyter Notebook, Matplotlib, Seaborn, Plotly
-- **Machine Learning y AI:** Modelado predictivo, regresión, clasificación, clustering
-- **Bases de datos:** PostgreSQL
-- **Herramientas:** Git, VS Code, Conda
-
-## Educación
-**Universidad Nacional de Colombia** Pregrado en Estadística
-
-  - Cursos relevantes: 
-    - [Metodos Multivariados] 
-    - [Analisis Estadistico de Redes Sociales]
-    - [Analisis de Regresion]
-    - [Series de Tiempo]
-    - [Teoria Estadistica del Riesgo]
-    - [Metodos no Parametricos] etc
-
-- **[Educacion Virtual]**: 
-  - [Conviertete en Data Analyst - LinkedIn]
-  - [Kaggle Learn Complete - Kaggle]

@@ -1,19 +1,43 @@
 ---
-title: "About"
-image: profile.jpg
+title: "Cesar Prieto"
 about:
+  id: hero-heading
   template: jolla
+  image: your-photo.jpg
   links:
     - icon: twitter
-      text: Twitter
+      text: twitter
       href: https://twitter.com
-    - icon: linkedin
-      text: LinkedIn
-      href: https://linkedin.com
     - icon: github
       text: Github
       href: https://github.com
-
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/cesar-prietosrt/
+    - icon: envelope-at-fill
+      text: Email
+      href: mailto:ceprieto@unal.edu.co 
 ---
 
-About this blog
+:::{#hero-heading}
+
+Soy estudiante de último año de Estadística en la Universidad Nacional de Colombia, sede Bogotá, con gran entusiasmo por el mundo de la estadística, el análisis de datos y el Machine Learning, la idea de este proyecto es crecer y continuar aprendiendo en el proceso. 
+
+Creo firmemente en que los datos con buenas practicas y aplicacion estadistica son parte fundamental de la toma de desiciones en cualquier area del conocimiento. 
+
+## Educacion
+
+Universidad Nacional de Colombia | Bogotá DC. CO
+Pregrado en Ciencias Estadistica | Finalizacion 2025
+
+## Habilidades
+- **Lenguajes de programación:** R, Python
+- **Frameworks y Librerías:** Scikit-learn, TensorFlow, Pandas, NumPy, Dplyr, Igraph
+- **Análisis de Datos y Visualización:** RStudio, Jupyter Notebook, Matplotlib, Seaborn, Plotly
+- **Machine Learning y AI:** Modelado predictivo, regresión, clasificación, clustering
+- **Bases de datos:** PostgreSQL
+- **Herramientas:** Git, VS Code, Conda
+
+## Campos de interes y desarrollo
+
+Series de Tiempo | Redes de interaccion | Modelado | Analisis Multivariado | Machine Learning | IA 
