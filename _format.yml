@@ -1,0 +1,7 @@
+format:
+  html:
+    theme: Litera
+    css: styles.css
+    smooth-scroll: true
+    gh-pages:
+      repo: "CapStats-ML/CapStats"

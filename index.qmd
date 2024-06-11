@@ -1,0 +1,50 @@
+---
+title: ""
+format: html
+---
+
+# Bienvenidos a CapStats
+
+Bienvenidos a CapStats, un proyecto personal. Este sitio nace con el propósito de difundir y divulgar el conocimiento estadístico que he adquirido durante mis estudios de pregrado en Estadística en la Universidad Nacional de Colombia.
+
+# Un poco sobre mi
+
+![](your-photo.jpg){ width=150px style="float: left; margin-right: 20px;" }
+
+Soy estudiante de último año de Estadística en la Universidad Nacional de Colombia, sede Bogotá, con gran entusiasmo por el mundo de la estadística, el análisis de datos y el Machine Learning. Mi objetivo principal es ofrecer recursos en español, dado que la mayoría de la información disponible sobre estos temas está en inglés. Creo firmemente que aprender en nuestro idioma facilita la comprensión y el aprendizaje de conceptos nuevos.
+
+En CapStats encontrarás conocimientos sobre estadística, análisis de datos, machine learning y más, presentados de una manera accesible y abierta. Espero que esta página sirva como guía, ayuda y ejemplo para todos aquellos interesados en estos campos, incentivando así el estudio y la profundización en estos temas apasionantes.
+
+## Proyectos Destacados
+Aquí algunos de mis proyectos más interesantes:
+
+1. **[Time-Series]** - Se desarrollo en compañia de un grupo de trabajo el proyecto final de la asignatura de Series de Tiempo.
+   - Tecnologías: [R, Python, Scikit-learn, TensorFlow, Pandas, NumPy]
+   - [Enlace al repositorio](https://github.com/CapStats-ML/Time-series)
+
+2. **[Social_Networks]** - Se desarrollo en compañia de [Alejandro Urrego](https://github.com/aurreg) todo el trabajo de la asignatura de Analisis Estadistico de Redes Sociales con el enfoque de grafos de relacionales
+   - Tecnologías: [R, Python, Conda, Igraph (Tanto en R como en Python), Networkx]
+   - [Enlace al repositorio](https://github.com/CapStats-ML/Social_Networks)
+
+## Habilidades
+- **Lenguajes de programación:** R, Python
+- **Frameworks y Librerías:** Scikit-learn, TensorFlow, Pandas, NumPy, Dplyr, Igraph
+- **Análisis de Datos y Visualización:** RStudio, Jupyter Notebook, Matplotlib, Seaborn, Plotly
+- **Machine Learning y AI:** Modelado predictivo, regresión, clasificación, clustering
+- **Bases de datos:** PostgreSQL
+- **Herramientas:** Git, VS Code, Conda
+
+## Educación
+**Universidad Nacional de Colombia** Pregrado en Estadística
+
+  - Cursos relevantes: 
+    - [Metodos Multivariados] 
+    - [Analisis Estadistico de Redes Sociales]
+    - [Analisis de Regresion]
+    - [Series de Tiempo]
+    - [Teoria Estadistica del Riesgo]
+    - [Metodos no Parametricos] etc
+
+- **[Educacion Virtual]**: 
+  - [Conviertete en Data Analyst - LinkedIn]
+  - [Kaggle Learn Complete - Kaggle]
