@@ -6,10 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Cesar Prieto">
-<meta name="dcterms.date" content="2024-06-05">
+<meta name="author" content="CapStats">
+<meta name="dcterms.date" content="2024-06-12">
 
-<title>CAPSTATS – Mi Primer Post</title>
+<title>CAPSTATS – Inferencia Estadística</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -25,22 +25,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<script src="../site_libs/quarto-html/quarto.js"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<script src="../../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -71,7 +71,7 @@ ul.task-list li input[type="checkbox"] {
 <style>html{ scroll-behavior: smooth; }</style>
 
 
-<link rel="stylesheet" href="../styles.css">
+<link rel="stylesheet" href="../../../styles.css">
 </head>
 
 <body class="nav-fixed fullcontent">
@@ -81,7 +81,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../index.html">
+    <a class="navbar-brand" href="../../../index.html">
     <span class="navbar-title">CAPSTATS</span>
     </a>
   </div>
@@ -92,25 +92,25 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../index.html"> 
+    <a class="nav-link" href="../../../index.html"> 
 <span class="menu-text">Inicio</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../Resumenes/index.html"> 
+    <a class="nav-link" href="../../../Resumenes/index.html"> 
 <span class="menu-text">Resumenes</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../Proyectos/index.html"> 
+    <a class="nav-link" href="../../../Proyectos/index.html"> 
 <span class="menu-text">Proyectos</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../Blogs/index.html"> 
+    <a class="nav-link" href="../../../Blogs/index.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../about.html"> 
+    <a class="nav-link" href="../../../about.html"> 
 <span class="menu-text">Cesar Prieto</span></a>
   </li>  
   <li class="nav-item compact">
@@ -145,10 +145,13 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Mi Primer Post</h1>
+<h1 class="title">Inferencia Estadística</h1>
+<p class="subtitle lead">Metodo de estimacion por momentos</p>
   <div class="quarto-categories">
-    <div class="quarto-category">estadística</div>
-    <div class="quarto-category">datos</div>
+    <div class="quarto-category">Algebra</div>
+    <div class="quarto-category">Inferencia</div>
+    <div class="quarto-category">Estimacion</div>
+    <div class="quarto-category">Resumen</div>
   </div>
   </div>
 
@@ -159,14 +162,14 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Author</div>
     <div class="quarto-title-meta-contents">
-             <p>Cesar Prieto </p>
+             <p>CapStats </p>
           </div>
   </div>
     
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">June 5, 2024</p>
+      <p class="date">June 12, 2024</p>
     </div>
   </div>
   
@@ -178,18 +181,99 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="mi-primer-post" class="level1">
-<h1>Mi Primer Post</h1>
-<p>Este es mi primer post en el blog. Aquí hablaré sobre…</p>
-<section id="sección-1" class="level2">
-<h2 class="anchored" data-anchor-id="sección-1">Sección 1</h2>
-<p>Contenido de la primera sección…</p>
+<section id="clase-de-estadística-espacio-de-probabilidad" class="level1">
+<h1>Clase de Estadística: Espacio de Probabilidad</h1>
+<section id="objetivos-de-la-clase" class="level2">
+<h2 class="anchored" data-anchor-id="objetivos-de-la-clase">Objetivos de la Clase</h2>
+<ol type="1">
+<li>Definir y entender el concepto de espacio de probabilidad.</li>
+<li>Identificar y diferenciar los componentes de un espacio de probabilidad.</li>
+<li>Aplicar el concepto de espacio de probabilidad en ejemplos prácticos.</li>
+</ol>
 </section>
-<section id="sección-2" class="level2">
-<h2 class="anchored" data-anchor-id="sección-2">Sección 2</h2>
-<p>Contenido de la segunda sección…</p>
+<section id="materiales-necesarios" class="level2">
+<h2 class="anchored" data-anchor-id="materiales-necesarios">Materiales Necesarios</h2>
+<ul>
+<li>Pizarra y marcadores (o proyector y diapositivas)</li>
+<li>Calculadora</li>
+<li>Cuadernos y bolígrafos para los estudiantes</li>
+</ul>
+<hr>
+</section>
+<section id="parte-1-introducción-teórica" class="level2">
+<h2 class="anchored" data-anchor-id="parte-1-introducción-teórica">Parte 1: Introducción Teórica</h2>
+<section id="definición-de-espacio-de-probabilidad" class="level3">
+<h3 class="anchored" data-anchor-id="definición-de-espacio-de-probabilidad">1.1 Definición de Espacio de Probabilidad</h3>
+<p>Un <strong>espacio de probabilidad</strong> es un modelo matemático que representa todos los posibles resultados de un experimento aleatorio. Se denota como un triplete ((, , P)), donde:</p>
+<ul>
+<li>() es el <strong>espacio muestral</strong>: el conjunto de todos los posibles resultados.</li>
+<li>() es una <strong>sigma-álgebra</strong>: una colección de subconjuntos de () que incluye al conjunto vacío y es cerrada bajo complementos y uniones contables.</li>
+<li>(P) es una <strong>medida de probabilidad</strong>: una función que asigna un número en el intervalo ([0, 1]) a cada evento en () tal que (P() = 1).</li>
+</ul>
+</section>
+<section id="componentes-del-espacio-de-probabilidad" class="level3">
+<h3 class="anchored" data-anchor-id="componentes-del-espacio-de-probabilidad">1.2 Componentes del Espacio de Probabilidad</h3>
+<ul>
+<li><strong>Espacio muestral (())</strong>: Puede ser finito o infinito. Ejemplo: En un lanzamiento de un dado, (= {1, 2, 3, 4, 5, 6}).</li>
+<li><strong>Eventos (())</strong>: Subconjuntos de (). Ejemplo: “Sacar un número par” es un evento que puede representarse como ({2, 4, 6}).</li>
+<li><strong>Medida de probabilidad (P)</strong>: Satisface las siguientes propiedades:
+<ul>
+<li>No negatividad: (P(A) ) para cualquier (A ).</li>
+<li>Normalización: (P() = 1).</li>
+<li>Aditividad contable: Si ({A_i}) es una colección de eventos disjuntos, entonces (P(<em>{i} A_i) = </em>{i} P(A_i)).</li>
+</ul></li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="parte-2-ejemplos-prácticos" class="level2">
+<h2 class="anchored" data-anchor-id="parte-2-ejemplos-prácticos">Parte 2: Ejemplos Prácticos</h2>
+<section id="ejemplo-1-lanzamiento-de-un-dado" class="level3">
+<h3 class="anchored" data-anchor-id="ejemplo-1-lanzamiento-de-un-dado">Ejemplo 1: Lanzamiento de un Dado</h3>
+<ul>
+<li>(= {1, 2, 3, 4, 5, 6})</li>
+<li>( = {, {1}, {2}, {3}, {4}, {5}, {6}, {1, 2}, , })</li>
+<li>(P({i}) = ) para (i )</li>
+</ul>
+</section>
+<section id="ejemplo-2-lanzamiento-de-una-moneda" class="level3">
+<h3 class="anchored" data-anchor-id="ejemplo-2-lanzamiento-de-una-moneda">Ejemplo 2: Lanzamiento de una Moneda</h3>
+<ul>
+<li>(= {Cara, Cruz})</li>
+<li>( = {, {Cara}, {Cruz}, })</li>
+<li>(P({Cara}) = ), (P({Cruz}) = )</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="parte-3-ejercicios" class="level2">
+<h2 class="anchored" data-anchor-id="parte-3-ejercicios">Parte 3: Ejercicios</h2>
+<section id="ejercicio-1-lanzamiento-de-dos-dados" class="level3">
+<h3 class="anchored" data-anchor-id="ejercicio-1-lanzamiento-de-dos-dados">Ejercicio 1: Lanzamiento de dos Dados</h3>
+<ol type="1">
+<li>Definir el espacio muestral ().</li>
+<li>Listar algunos eventos posibles.</li>
+<li>Asignar probabilidades a los eventos.</li>
+</ol>
+</section>
+<section id="ejercicio-2-experimento-de-extracción-de-una-carta-de-una-baraja" class="level3">
+<h3 class="anchored" data-anchor-id="ejercicio-2-experimento-de-extracción-de-una-carta-de-una-baraja">Ejercicio 2: Experimento de Extracción de una Carta de una Baraja</h3>
+<ol type="1">
+<li>Definir el espacio muestral ().</li>
+<li>Definir un evento específico (por ejemplo, sacar un As).</li>
+<li>Calcular la probabilidad del evento.</li>
+</ol>
+</section>
+<section id="ejercicio-3-bolsa-con-bolas-de-colores" class="level3">
+<h3 class="anchored" data-anchor-id="ejercicio-3-bolsa-con-bolas-de-colores">Ejercicio 3: Bolsa con Bolas de Colores</h3>
+<ol type="1">
+<li>Una bolsa contiene 3 bolas rojas, 2 verdes y 5 azules. Definir ().</li>
+<li>Calcular la probabilidad de sacar una bola roja.</li>
+<li>Calcular la probabilidad de sacar una bola de cualquier otro color.</li>
+</ol>
 
 
+</section>
 </section>
 </section>
 
@@ -643,5 +727,5 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 
 
 
-<script src="../site_libs/quarto-html/zenscroll-min.js"></script>
+<script src="../../../site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>

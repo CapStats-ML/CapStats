@@ -6,10 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Cesar Prieto">
-<meta name="dcterms.date" content="2024-06-05">
 
-<title>CAPSTATS – Mi Primer Post</title>
+<title>CAPSTATS – Resúmenes Programacion en R</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -25,22 +23,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<script src="../site_libs/quarto-html/quarto.js"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-listing/list.min.js"></script>
+<script src="../../site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -68,10 +68,68 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-Resumenes .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-date','listing-title','listing-subtitle','listing-author',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-Resumenes'] = new List('listing-Resumenes', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
 <style>html{ scroll-behavior: smooth; }</style>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<link rel="stylesheet" href="../styles.css">
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
 <body class="nav-fixed fullcontent">
@@ -81,7 +139,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">CAPSTATS</span>
     </a>
   </div>
@@ -92,25 +150,25 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../index.html"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">Inicio</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../Resumenes/index.html"> 
+    <a class="nav-link" href="../../Resumenes/index.html"> 
 <span class="menu-text">Resumenes</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../Proyectos/index.html"> 
+    <a class="nav-link" href="../../Proyectos/index.html"> 
 <span class="menu-text">Proyectos</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../Blogs/index.html"> 
+    <a class="nav-link" href="../../Blogs/index.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../about.html"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">Cesar Prieto</span></a>
   </li>  
   <li class="nav-item compact">
@@ -145,30 +203,14 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Mi Primer Post</h1>
-  <div class="quarto-categories">
-    <div class="quarto-category">estadística</div>
-    <div class="quarto-category">datos</div>
-  </div>
-  </div>
+<h1 class="title">Resúmenes Programacion en R</h1>
+</div>
 
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>Cesar Prieto </p>
-          </div>
-  </div>
     
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">June 5, 2024</p>
-    </div>
-  </div>
   
     
   </div>
@@ -178,22 +220,130 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="mi-primer-post" class="level1">
-<h1>Mi Primer Post</h1>
-<p>Este es mi primer post en el blog. Aquí hablaré sobre…</p>
-<section id="sección-1" class="level2">
-<h2 class="anchored" data-anchor-id="sección-1">Sección 1</h2>
-<p>Contenido de la primera sección…</p>
-</section>
-<section id="sección-2" class="level2">
-<h2 class="anchored" data-anchor-id="sección-2">Sección 2</h2>
-<p>Contenido de la segunda sección…</p>
+<p>Esta sección se centra en la programación en R, ideal para el análisis estadístico y la visualización de datos. R es una herramienta potente para estadísticos y científicos de datos.</p>
+<section id="qué-encontrarás-aquí" class="level4">
+<h4 class="anchored" data-anchor-id="qué-encontrarás-aquí">¿Qué encontrarás aquí?</h4>
+<ol type="1">
+<li><strong>Introducción a R</strong>: Fundamentos y estructuras de datos básicas.</li>
+<li><strong>Manipulación de Datos con dplyr y tidyr</strong>: Limpieza y preparación de datos.</li>
+<li><strong>Visualización de Datos con ggplot2</strong>: Creación de visualizaciones de alta calidad.</li>
+<li><strong>Análisis Estadístico con R</strong>: Pruebas de hipótesis y análisis de regresión.</li>
+<li><strong>Modelos de Aprendizaje Automático con caret y mlr</strong>: Construcción y evaluación de modelos predictivos.</li>
+<li><strong>Trabajo con Datos Masivos</strong>: Análisis de grandes datasets con data.table y herramientas de integración.</li>
+<li><strong>Casos de Estudio y Proyectos</strong>: Proyectos prácticos para aplicar tus conocimientos.</li>
+</ol>
 
 
-</section>
+
 </section>
 
-</main> <!-- /main -->
+<div class="quarto-listing quarto-listing-container-grid" id="listing-Resumenes">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+     <select id="listing-Resumenes-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-Resumenes'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+       <option value="" disabled="" selected="" hidden="">Order By</option>
+       <option value="index" data-direction="asc">Default</option>
+         <option value="listing-title" data-direction="asc">
+          Title
+        </option>
+         <option value="listing-date-sort" data-direction="asc">
+          Date - Oldest
+        </option>
+         <option value="listing-date-sort" data-direction="desc">
+          Date - Newest
+        </option>
+         <option value="listing-author" data-direction="asc">
+          Author
+        </option>
+     </select>
+  </div>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
+</div>
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="Probabilidad,Conjuntos,Resumen" data-listing-date-sort="1718168400000" data-listing-file-modified-sort="1718222042813" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="393">
+<a href="../../Resumenes/Programacion_en_R/Espacio_de_Probabilidad/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../../Resumenes/Programacion_en_R/Espacio_de_Probabilidad/Espacio de Probabilidad.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Introduccion a la Probabilidad
+</h5>
+<div class="card-subtitle listing-subtitle">
+Espacio de Probabilidad
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+CapStats
+</div>
+<div class="listing-date">
+Jun 12, 2024
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="Algebra,Inferencia,Estimacion,Resumen" data-listing-date-sort="1718168400000" data-listing-file-modified-sort="1718221666806" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="393">
+<a href="../../Resumenes/Programacion_en_R/Estimacion_por_Momentos/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../../Resumenes/Programacion_en_R/Estimacion_por_Momentos/Estimacion por Momentos.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Inferencia Estadística
+</h5>
+<div class="card-subtitle listing-subtitle">
+Metodo de estimacion por momentos
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+CapStats
+</div>
+<div class="listing-date">
+Jun 12, 2024
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2" data-categories="Regresion,Estimacion,Resumen" data-listing-date-sort="1718168400000" data-listing-file-modified-sort="1718222040582" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="393">
+<a href="../../Resumenes/Programacion_en_R/Minimos_Cuadrados_Ordinarios/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../../Resumenes/Programacion_en_R/Minimos_Cuadrados_Ordinarios/Minimos Cuadrados Ordinarios.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Minimos Cuadrados Ordinarios
+</h5>
+<div class="card-subtitle listing-subtitle">
+Analisis de Regresion
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+CapStats
+</div>
+<div class="listing-date">
+Jun 12, 2024
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -643,5 +793,5 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 
 
 
-<script src="../site_libs/quarto-html/zenscroll-min.js"></script>
+<script src="../../site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>
