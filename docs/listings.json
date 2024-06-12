@@ -1,0 +1,43 @@
+[
+  {
+    "listing": "/Resumenes/index.html",
+    "items": [
+      "/Resumenes/Estadistica/index.html",
+      "/Resumenes/Programacion_en_Python/index.html",
+      "/Resumenes/Programacion_en_R/index.html",
+      "/Resumenes/Estadistica/Espacio_de_Probabilidad/index.html",
+      "/Resumenes/Estadistica/Estimacion_por_Momentos/index.html",
+      "/Resumenes/Estadistica/Minimos_Cuadrados_Ordinarios/index.html",
+      "/Resumenes/Programacion_en_Python/Espacio_de_Probabilidad/index.html",
+      "/Resumenes/Programacion_en_Python/Estimacion_por_Momentos/index.html",
+      "/Resumenes/Programacion_en_Python/Minimos_Cuadrados_Ordinarios/index.html",
+      "/Resumenes/Programacion_en_R/Espacio_de_Probabilidad/index.html",
+      "/Resumenes/Programacion_en_R/Estimacion_por_Momentos/index.html",
+      "/Resumenes/Programacion_en_R/Minimos_Cuadrados_Ordinarios/index.html"
+    ]
+  },
+  {
+    "listing": "/Resumenes/Estadistica/index.html",
+    "items": [
+      "/Resumenes/Estadistica/Espacio_de_Probabilidad/index.html",
+      "/Resumenes/Estadistica/Estimacion_por_Momentos/index.html",
+      "/Resumenes/Estadistica/Minimos_Cuadrados_Ordinarios/index.html"
+    ]
+  },
+  {
+    "listing": "/Resumenes/Programacion_en_Python/index.html",
+    "items": [
+      "/Resumenes/Programacion_en_Python/Espacio_de_Probabilidad/index.html",
+      "/Resumenes/Programacion_en_Python/Estimacion_por_Momentos/index.html",
+      "/Resumenes/Programacion_en_Python/Minimos_Cuadrados_Ordinarios/index.html"
+    ]
+  },
+  {
+    "listing": "/Resumenes/Programacion_en_R/index.html",
+    "items": [
+      "/Resumenes/Programacion_en_R/Espacio_de_Probabilidad/index.html",
+      "/Resumenes/Programacion_en_R/Estimacion_por_Momentos/index.html",
+      "/Resumenes/Programacion_en_R/Minimos_Cuadrados_Ordinarios/index.html"
+    ]
+  }
+]

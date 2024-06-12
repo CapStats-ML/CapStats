@@ -1,0 +1,25 @@
+---
+title: "Resúmenes Progrmacion en Python"
+listing:
+  - id: Resumenes
+    contents: "*/index.qmd"
+    type: grid
+    fields: [image, date, title, subtitle, author]
+    sort: "date desc"
+    sort-ui: true
+    filter-ui: true
+    page-size: 3
+---
+
+En esta sección, exploramos el mundo de la programación en Python con un enfoque en el análisis de datos. Python es ampliamente utilizado por su versatilidad y poder, y ofrece numerosas bibliotecas y herramientas para el análisis de datos.
+
+#### ¿Qué encontrarás aquí?
+
+1. **Introducción a Python**: Conceptos básicos y estructuras de datos fundamentales.
+2. **Manipulación de Datos con Pandas**: Limpieza y transformación de datos de manera eficiente.
+3. **Visualización de Datos con Matplotlib y Seaborn**: Creación de gráficos y visualizaciones.
+4. **Análisis Estadístico con SciPy y Statsmodels**: Pruebas de hipótesis y análisis de regresión.
+5. **Aprendizaje Automático con Scikit-Learn**: Algoritmos y evaluación de modelos predictivos.
+6. **Trabajando con Big Data**: Manejo de grandes volúmenes de datos con Dask y PySpark.
+7. **Casos de Estudio y Proyectos**: Aplicación práctica en proyectos del mundo real.
+

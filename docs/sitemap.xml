@@ -1,23 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://capstats-ml.github.io/CapStats/Resumenes/Programacion_en_R/Minimos_Cuadrados_Ordinarios/index.html</loc>
+    <lastmod>2024-06-12T19:54:00.582Z</lastmod>
+  </url>
+  <url>
+    <loc>https://capstats-ml.github.io/CapStats/Resumenes/Programacion_en_R/Estimacion_por_Momentos/index.html</loc>
+    <lastmod>2024-06-12T19:47:46.806Z</lastmod>
+  </url>
+  <url>
+    <loc>https://capstats-ml.github.io/CapStats/Resumenes/Programacion_en_Python/Minimos_Cuadrados_Ordinarios/index.html</loc>
+    <lastmod>2024-06-12T19:54:00.582Z</lastmod>
+  </url>
+  <url>
+    <loc>https://capstats-ml.github.io/CapStats/Resumenes/Programacion_en_Python/Estimacion_por_Momentos/index.html</loc>
+    <lastmod>2024-06-12T19:47:46.806Z</lastmod>
+  </url>
+  <url>
     <loc>https://capstats-ml.github.io/CapStats/Resumenes/index.html</loc>
+    <lastmod>2024-06-12T20:44:55.235Z</lastmod>
+  </url>
+  <url>
+    <loc>https://capstats-ml.github.io/CapStats/Resumenes/Estadistica/index.html</loc>
+    <lastmod>2024-06-12T20:55:13.428Z</lastmod>
+  </url>
+  <url>
+    <loc>https://capstats-ml.github.io/CapStats/Resumenes/Estadistica/Espacio_de_Probabilidad/index.html</loc>
+    <lastmod>2024-06-12T19:54:02.813Z</lastmod>
+  </url>
+  <url>
+    <loc>https://capstats-ml.github.io/CapStats/Proyectos/about.html</loc>
     <lastmod>2024-06-11T16:47:11.938Z</lastmod>
   </url>
   <url>
-    <loc>https://capstats-ml.github.io/CapStats/Proyectos/index.html</loc>
-    <lastmod>2024-06-11T16:47:11.938Z</lastmod>
+    <loc>https://capstats-ml.github.io/CapStats/index.html</loc>
+    <lastmod>2024-06-12T20:54:10.921Z</lastmod>
   </url>
   <url>
-    <loc>https://capstats-ml.github.io/CapStats/LICENSE.html</loc>
-    <lastmod>2024-06-11T16:47:11.938Z</lastmod>
-  </url>
-  <url>
-    <loc>https://capstats-ml.github.io/CapStats/Blogs/post1.html</loc>
-    <lastmod>2024-06-11T16:47:11.938Z</lastmod>
-  </url>
-  <url>
-    <loc>https://capstats-ml.github.io/CapStats/Blogs/about.html</loc>
+    <loc>https://capstats-ml.github.io/CapStats/Blogs/index.html</loc>
     <lastmod>2024-06-11T16:47:11.938Z</lastmod>
   </url>
   <url>
@@ -25,19 +45,43 @@
     <lastmod>2024-06-11T20:34:36.340Z</lastmod>
   </url>
   <url>
-    <loc>https://capstats-ml.github.io/CapStats/Blogs/index.html</loc>
+    <loc>https://capstats-ml.github.io/CapStats/Blogs/about.html</loc>
     <lastmod>2024-06-11T16:47:11.938Z</lastmod>
   </url>
   <url>
-    <loc>https://capstats-ml.github.io/CapStats/index.html</loc>
-    <lastmod>2024-06-11T20:34:27.531Z</lastmod>
-  </url>
-  <url>
-    <loc>https://capstats-ml.github.io/CapStats/Proyectos/about.html</loc>
+    <loc>https://capstats-ml.github.io/CapStats/Blogs/post1.html</loc>
     <lastmod>2024-06-11T16:47:11.938Z</lastmod>
   </url>
   <url>
-    <loc>https://capstats-ml.github.io/CapStats/Resumenes/about.html</loc>
+    <loc>https://capstats-ml.github.io/CapStats/LICENSE.html</loc>
     <lastmod>2024-06-11T16:47:11.938Z</lastmod>
+  </url>
+  <url>
+    <loc>https://capstats-ml.github.io/CapStats/Proyectos/index.html</loc>
+    <lastmod>2024-06-11T16:47:11.938Z</lastmod>
+  </url>
+  <url>
+    <loc>https://capstats-ml.github.io/CapStats/Resumenes/Estadistica/Estimacion_por_Momentos/index.html</loc>
+    <lastmod>2024-06-12T19:47:46.806Z</lastmod>
+  </url>
+  <url>
+    <loc>https://capstats-ml.github.io/CapStats/Resumenes/Estadistica/Minimos_Cuadrados_Ordinarios/index.html</loc>
+    <lastmod>2024-06-12T19:54:00.582Z</lastmod>
+  </url>
+  <url>
+    <loc>https://capstats-ml.github.io/CapStats/Resumenes/Programacion_en_Python/Espacio_de_Probabilidad/index.html</loc>
+    <lastmod>2024-06-12T19:54:02.813Z</lastmod>
+  </url>
+  <url>
+    <loc>https://capstats-ml.github.io/CapStats/Resumenes/Programacion_en_Python/index.html</loc>
+    <lastmod>2024-06-12T20:53:06.276Z</lastmod>
+  </url>
+  <url>
+    <loc>https://capstats-ml.github.io/CapStats/Resumenes/Programacion_en_R/Espacio_de_Probabilidad/index.html</loc>
+    <lastmod>2024-06-12T19:54:02.813Z</lastmod>
+  </url>
+  <url>
+    <loc>https://capstats-ml.github.io/CapStats/Resumenes/Programacion_en_R/index.html</loc>
+    <lastmod>2024-06-12T20:55:01.315Z</lastmod>
   </url>
 </urlset>

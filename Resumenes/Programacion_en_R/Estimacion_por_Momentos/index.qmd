@@ -1,0 +1,74 @@
+---
+title: "Inferencia Estadística"
+subtitle: "Metodo de estimacion por momentos"
+author: 
+  - "CapStats"
+date: "2024-06-12"
+categories: [Algebra, Inferencia, Estimacion, Resumen]
+image: "Estimacion por Momentos.png"
+---
+
+# Clase de Estadística: Espacio de Probabilidad
+
+## Objetivos de la Clase
+1. Definir y entender el concepto de espacio de probabilidad.
+2. Identificar y diferenciar los componentes de un espacio de probabilidad.
+3. Aplicar el concepto de espacio de probabilidad en ejemplos prácticos.
+
+## Materiales Necesarios
+- Pizarra y marcadores (o proyector y diapositivas)
+- Calculadora
+- Cuadernos y bolígrafos para los estudiantes
+
+---
+
+## Parte 1: Introducción Teórica
+
+### 1.1 Definición de Espacio de Probabilidad
+Un **espacio de probabilidad** es un modelo matemático que representa todos los posibles resultados de un experimento aleatorio. Se denota como un triplete \((\Omega, \mathcal{F}, P)\), donde:
+
+- \(\Omega\) es el **espacio muestral**: el conjunto de todos los posibles resultados.
+- \(\mathcal{F}\) es una **sigma-álgebra**: una colección de subconjuntos de \(\Omega\) que incluye al conjunto vacío y es cerrada bajo complementos y uniones contables.
+- \(P\) es una **medida de probabilidad**: una función que asigna un número en el intervalo \([0, 1]\) a cada evento en \(\mathcal{F}\) tal que \(P(\Omega) = 1\).
+
+### 1.2 Componentes del Espacio de Probabilidad
+- **Espacio muestral (\(\Omega\))**: Puede ser finito o infinito. Ejemplo: En un lanzamiento de un dado, \(\Omega = \{1, 2, 3, 4, 5, 6\}\).
+- **Eventos (\(\mathcal{F}\))**: Subconjuntos de \(\Omega\). Ejemplo: "Sacar un número par" es un evento que puede representarse como \(\{2, 4, 6\}\).
+- **Medida de probabilidad (P)**: Satisface las siguientes propiedades:
+  - No negatividad: \(P(A) \geq 0\) para cualquier \(A \in \mathcal{F}\).
+  - Normalización: \(P(\Omega) = 1\).
+  - Aditividad contable: Si \(\{A_i\}\) es una colección de eventos disjuntos, entonces \(P\left(\bigcup_{i} A_i\right) = \sum_{i} P(A_i)\).
+
+---
+
+## Parte 2: Ejemplos Prácticos
+
+### Ejemplo 1: Lanzamiento de un Dado
+- \(\Omega = \{1, 2, 3, 4, 5, 6\}\)
+- \(\mathcal{F} = \{\emptyset, \{1\}, \{2\}, \{3\}, \{4\}, \{5\}, \{6\}, \{1, 2\}, \ldots, \Omega\}\)
+- \(P(\{i\}) = \frac{1}{6}\) para \(i \in \Omega\)
+
+### Ejemplo 2: Lanzamiento de una Moneda
+- \(\Omega = \{Cara, Cruz\}\)
+- \(\mathcal{F} = \{\emptyset, \{Cara\}, \{Cruz\}, \Omega\}\)
+- \(P(\{Cara\}) = \frac{1}{2}\), \(P(\{Cruz\}) = \frac{1}{2}\)
+
+---
+
+## Parte 3: Ejercicios
+
+### Ejercicio 1: Lanzamiento de dos Dados
+1. Definir el espacio muestral \(\Omega\).
+2. Listar algunos eventos posibles.
+3. Asignar probabilidades a los eventos.
+
+### Ejercicio 2: Experimento de Extracción de una Carta de una Baraja
+1. Definir el espacio muestral \(\Omega\).
+2. Definir un evento específico (por ejemplo, sacar un As).
+3. Calcular la probabilidad del evento.
+
+### Ejercicio 3: Bolsa con Bolas de Colores
+1. Una bolsa contiene 3 bolas rojas, 2 verdes y 5 azules. Definir \(\Omega\).
+2. Calcular la probabilidad de sacar una bola roja.
+3. Calcular la probabilidad de sacar una bola de cualquier otro color.
+

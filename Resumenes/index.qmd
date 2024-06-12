@@ -1,18 +1,18 @@
 ---
-title: "Mi Primer Post"
-author: "Cesar Prieto"
-date: 2024-06-05
-categories: [estadística, datos]
+title: "Resúmenes Académicos"
+listing: 
+  - id: Resumenes
+    contents: "*/index.qmd"
+    type: grid
+    fields: [image, date, title, subtitle, author]
+    sort: "date desc"
+    sort-ui: true
+    filter-ui: true
+    page-size: 3
 ---
 
-# Introducción
+Esta seccion está compuesta por todos los resumenes academicos que se han ido desarrollando a lo largo del avance y el paso por la carrera de Estadistica, aunque el material no solo se compone de lo aprendido allí sino tambien de temas que individualmente han sido llamativos para la inclusion de ellos en este proyecto. 
 
-Este es mi primer post en el blog. Aquí hablaré sobre...
+Aquí se podran encontrar temas principalmente de 3 tematicas grandes las cuales son: Estadística, Programacion en R y Programacion en Python, el cual se ha diseñado de esta manera para poder separar lo estrictamente academico como en el caso de la seccion Estadística, de lo más practico como los topicos encontrados en las secciones de programacion en R y Python.
 
-## Sección 1
-
-Contenido de la primera sección...
-
-## Sección 2
-
-Contenido de la segunda sección...
+A continuacion el listado: 
