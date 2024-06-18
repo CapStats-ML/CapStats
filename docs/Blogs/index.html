@@ -30,6 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-listing/list.min.js"></script>
+<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -66,8 +68,66 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-Resumenes .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-date','listing-title','listing-subtitle','listing-author',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: [],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-Resumenes'] = new List('listing-Resumenes', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
 <style>html{ scroll-behavior: smooth; }</style>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../styles.css">
 </head>
@@ -93,10 +153,29 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="../index.html"> 
 <span class="menu-text">Inicio</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../Resumenes/index.html"> 
-<span class="menu-text">Resumenes</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-resumenes" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Resumenes</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-resumenes">    
+        <li>
+    <a class="dropdown-item" href="../Resumenes/index.html">
+ <span class="dropdown-text">Resumenes</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="../Resumenes/Estadistica/index.html">
+ <span class="dropdown-text">Estadistica</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../Resumenes/Programacion_en_Python/index.html">
+ <span class="dropdown-text">Programacion en Python</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../Resumenes/Programacion_en_R/index.html">
+ <span class="dropdown-text">Programacion en R</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item">
     <a class="nav-link" href="../Proyectos/index.html"> 
 <span class="menu-text">Proyectos</span></a>
@@ -145,17 +224,59 @@ ul.task-list li input[type="checkbox"] {
 
 
 <p><img src="7.png" alt="Foto de Bram Naus en Unsplash, modificaciones realizadas en Canva por mi persona" style="max-width:100%;height:auto;"></p>
-<section id="blogs" class="level1">
-<h1>Blogs</h1>
-<p>Bienvenido a la sección de Blogs. Aquí encontrarás todas mis publicaciones.</p>
-<div class="gallery">
-<p><a href="post1.qmd"><img src="../images/post1-thumbnail.jpg" alt="Mi Primer Post"></a> <!-- Agrega más miniaturas según sea necesario --></p>
-</div>
+<p>Bienvenido a nuestro blog, el espacio donde exploramos y compartimos las últimas novedades y curiosidades en los campos de la estadística, el análisis de datos, el Machine Learning y la inteligencia artificial. Aquí encontrarás una mezcla de artículos informativos, tutoriales prácticos y discusiones sobre las tendencias emergentes que están dando forma a estos campos apasionantes.</p>
+<section id="qué-puedes-esperar-de-nuestro-blog" class="level3">
+<h3 class="anchored" data-anchor-id="qué-puedes-esperar-de-nuestro-blog">¿Qué puedes esperar de nuestro blog?</h3>
+<p>En esta sección, nos enfocamos en el trabajo de campo que va más allá de simplemente hacer, se trata de aprender, informarse y mantenerse actualizado con los avances más recientes. Ya seas un principiante curioso o un profesional experimentado, encontrarás contenido valioso y entretenido que te ayudará a profundizar en tu conocimiento y habilidades.</p>
+<p>Algunos de los temas que cubrimos incluyen:</p>
+<ul>
+<li><strong>Estadística y Análisis de Datos</strong>: Desde fundamentos hasta técnicas avanzadas, exploramos métodos para entender y aprovechar los datos.</li>
+<li><strong>Machine Learning</strong>: Descubre algoritmos, herramientas y aplicaciones prácticas del aprendizaje automático.</li>
+<li><strong>Inteligencia Artificial</strong>: Mantente al tanto de las innovaciones en IA y cómo están transformando diversas industrias.</li>
+<li><strong>Proyectos y Casos de Estudio</strong>: Aprende de proyectos del mundo real y casos de estudio que demuestran la aplicación práctica de estas tecnologías.</li>
+</ul>
+<p>Nos apasiona compartir conocimientos y fomentar una comunidad de aprendizaje continuo. ¡Esperamos que disfrutes de tu tiempo aquí y encuentres inspiración para tus propios proyectos!</p>
+</section>
+<section id="artículos-recientes" class="level2">
+<h2 class="anchored" data-anchor-id="artículos-recientes">Artículos Recientes</h2>
+
 
 
 </section>
 
-</main> <!-- /main -->
+<div class="quarto-listing quarto-listing-container-grid" id="listing-Resumenes">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+     <select id="listing-Resumenes-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-Resumenes'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+       <option value="" disabled="" selected="" hidden="">Order By</option>
+       <option value="index" data-direction="asc">Default</option>
+         <option value="listing-title" data-direction="asc">
+          Title
+        </option>
+         <option value="listing-date-sort" data-direction="asc">
+          Date - Oldest
+        </option>
+         <option value="listing-date-sort" data-direction="desc">
+          Date - Newest
+        </option>
+         <option value="listing-author" data-direction="asc">
+          Author
+        </option>
+     </select>
+  </div>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
+</div>
+<div class="list grid quarto-listing-cols-3">
+
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

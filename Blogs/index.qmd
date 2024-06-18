@@ -1,16 +1,34 @@
 ---
 title: ""
+listing:
+  - id: Resumenes
+    contents: "*/index.qmd"
+    type: grid
+    fields: [image, date, title, subtitle, author]
+    sort: "date desc"
+    sort-ui: true
+    filter-ui: true
+    page-size: 3
 execute:
   echo: false
 ---
 
 <img src="7.png" alt="Foto de Bram Naus en Unsplash, modificaciones realizadas en Canva por mi persona" style="max-width:100%;height:auto;">
 
-# Blogs
 
-Bienvenido a la sección de Blogs. Aquí encontrarás todas mis publicaciones.
+Bienvenido a nuestro blog, el espacio donde exploramos y compartimos las últimas novedades y curiosidades en los campos de la estadística, el análisis de datos, el Machine Learning y la inteligencia artificial. Aquí encontrarás una mezcla de artículos informativos, tutoriales prácticos y discusiones sobre las tendencias emergentes que están dando forma a estos campos apasionantes.
 
-<div class="gallery">
-  <a href="post1.qmd"><img src="../images/post1-thumbnail.jpg" alt="Mi Primer Post"></a>
-  <!-- Agrega más miniaturas según sea necesario -->
-</div>
+### ¿Qué puedes esperar de nuestro blog?
+
+En esta sección, nos enfocamos en el trabajo de campo que va más allá de simplemente hacer, se trata de aprender, informarse y mantenerse actualizado con los avances más recientes. Ya seas un principiante curioso o un profesional experimentado, encontrarás contenido valioso y entretenido que te ayudará a profundizar en tu conocimiento y habilidades.
+
+Algunos de los temas que cubrimos incluyen:
+
+- **Estadística y Análisis de Datos**: Desde fundamentos hasta técnicas avanzadas, exploramos métodos para entender y aprovechar los datos.
+- **Machine Learning**: Descubre algoritmos, herramientas y aplicaciones prácticas del aprendizaje automático.
+- **Inteligencia Artificial**: Mantente al tanto de las innovaciones en IA y cómo están transformando diversas industrias.
+- **Proyectos y Casos de Estudio**: Aprende de proyectos del mundo real y casos de estudio que demuestran la aplicación práctica de estas tecnologías.
+
+Nos apasiona compartir conocimientos y fomentar una comunidad de aprendizaje continuo. ¡Esperamos que disfrutes de tu tiempo aquí y encuentres inspiración para tus propios proyectos!
+
+## Artículos Recientes 

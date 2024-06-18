@@ -1,19 +1,32 @@
 ---
 title: ""
+listing:
+  - id: Resumenes
+    contents: "*/index.qmd"
+    type: grid
+    fields: [image, date, title, subtitle, author]
+    sort: "date desc"
+    sort-ui: true
+    filter-ui: true
+    page-size: 3
 execute:
   echo: false
 ---
 
 <img src="1.png" alt="Foto de Carlos Muza en Unsplash, modificaciones realizadas en Canva por mi persona" style="max-width:100%;height:auto;">
 
-# Introducción
+Bienvenido a la sección de proyectos. Aquí encontrarás una colección de trabajos que reflejan tanto esfuerzos personales como colaborativos. Estos proyectos han sido seleccionados por su relevancia y potencial para inspirar y educar a otros.
 
-Este es mi primer post en el blog. Aquí hablaré sobre...
+### ¿Qué tipo de proyectos encontrarás aquí?
 
-## Sección 1
+En esta sección, presento una variedad de proyectos que abarcan desde la academia hasta intereses más personales. Algunos de ellos fueron desarrollados durante mi etapa universitaria, mientras que otros son fruto de la curiosidad y el deseo de explorar nuevas fronteras en diversos campos.
 
-Contenido de la primera sección...
+- **Proyectos Académicos**: Incluyen trabajos realizados durante mi pregrado, que muestran el proceso de aprendizaje y aplicación de conceptos teóricos en situaciones prácticas.
+- **Proyectos Personales**: Estas son iniciativas individuales que reflejan mis intereses personales y pasiones. Son proyectos que he desarrollado para profundizar en áreas específicas y poner en práctica nuevas habilidades.
+- **Proyectos Colaborativos**: Trabajos realizados en colaboración con colegas y amigos, demostrando la importancia del trabajo en equipo y la sinergia en la creación de soluciones innovadoras.
 
-## Sección 2
+### Acceso a más proyectos
 
-Contenido de la segunda sección...
+Si bien esta sección destaca algunos de los proyectos más significativos, no dudes en explorar mi [repositorio de GitHub](https://github.com/CapStats-ML) para descubrir más trabajos y colaboraciones. Mi GitHub contiene una colección más amplia de proyectos, cada uno con su propio conjunto de desafíos y aprendizajes.
+
+## Proyectos Destacados

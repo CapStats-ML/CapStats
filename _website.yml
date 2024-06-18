@@ -12,7 +12,15 @@ website:
       - text: "Inicio"
         href: index.qmd
       - text: "Resumenes"
-        href: Resumenes/index.qmd
+        menu:
+          - text: Resumenes
+            href: Resumenes\index.qmd
+          - text: "Estadistica"
+            href: Resumenes/Estadistica/index.qmd
+          - text: "Programacion en Python"
+            href: Resumenes/Programacion_en_Python/index.qmd
+          - text: "Programacion en R"
+            href: Resumenes/Programacion_en_R/index.qmd
       - text: "Proyectos"
         href: Proyectos/index.qmd
       - text: "Blog"

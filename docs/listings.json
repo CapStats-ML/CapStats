@@ -25,6 +25,14 @@
     ]
   },
   {
+    "listing": "/Blogs/index.html",
+    "items": []
+  },
+  {
+    "listing": "/Proyectos/index.html",
+    "items": []
+  },
+  {
     "listing": "/Resumenes/Programacion_en_Python/index.html",
     "items": [
       "/Resumenes/Programacion_en_Python/Espacio_de_Probabilidad/index.html",
