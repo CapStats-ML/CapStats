@@ -233,9 +233,16 @@
   {
     "objectID": "Blogs/index.html",
     "href": "Blogs/index.html",
-    "title": "Blogs",
+    "title": "CAPSTATS",
     "section": "",
-    "text": "Blogs\nBienvenido a la sección de Blogs. Aquí encontrarás todas mis publicaciones."
+    "text": "Bienvenido a nuestro blog, el espacio donde exploramos y compartimos las últimas novedades y curiosidades en los campos de la estadística, el análisis de datos, el Machine Learning y la inteligencia artificial. Aquí encontrarás una mezcla de artículos informativos, tutoriales prácticos y discusiones sobre las tendencias emergentes que están dando forma a estos campos apasionantes."
+  },
+  {
+    "objectID": "Blogs/index.html#artículos-recientes",
+    "href": "Blogs/index.html#artículos-recientes",
+    "title": "CAPSTATS",
+    "section": "Artículos Recientes",
+    "text": "Artículos Recientes"
   },
   {
     "objectID": "about.html",
@@ -280,18 +287,18 @@
     "text": "Proyectos Destacados\nAquí algunos de mis proyectos más interesantes:\n\n[Time-Series] - Se desarrollo en compañia de un grupo de trabajo el proyecto final de la asignatura de Series de Tiempo.\n\nTecnologías: [R, Python, Scikit-learn, TensorFlow, Pandas, NumPy]\nEnlace al repositorio\n\n[Social_Networks] - Se desarrollo en compañia de Alejandro Urrego todo el trabajo de la asignatura de Analisis Estadistico de Redes Sociales con el enfoque de grafos de relacionales\n\nTecnologías: [R, Python, Conda, Igraph (Tanto en R como en Python), Networkx]\nEnlace al repositorio"
   },
   {
-    "objectID": "Proyectos/index.html#sección-1",
-    "href": "Proyectos/index.html#sección-1",
-    "title": "Introducción",
-    "section": "Sección 1",
-    "text": "Sección 1\nContenido de la primera sección…"
+    "objectID": "Proyectos/index.html",
+    "href": "Proyectos/index.html",
+    "title": "CAPSTATS",
+    "section": "",
+    "text": "Bienvenido a la sección de proyectos. Aquí encontrarás una colección de trabajos que reflejan tanto esfuerzos personales como colaborativos. Estos proyectos han sido seleccionados por su relevancia y potencial para inspirar y educar a otros."
   },
   {
-    "objectID": "Proyectos/index.html#sección-2",
-    "href": "Proyectos/index.html#sección-2",
-    "title": "Introducción",
-    "section": "Sección 2",
-    "text": "Sección 2\nContenido de la segunda sección…"
+    "objectID": "Proyectos/index.html#proyectos-destacados",
+    "href": "Proyectos/index.html#proyectos-destacados",
+    "title": "CAPSTATS",
+    "section": "Proyectos Destacados",
+    "text": "Proyectos Destacados"
   },
   {
     "objectID": "Resumenes/Estadistica/Estimacion_por_Momentos/index.html",
