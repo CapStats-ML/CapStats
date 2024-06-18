@@ -1,5 +1,5 @@
 ---
-title: "Resúmenes Programacion en R"
+title: ""
 listing:
   - id: Resumenes
     contents: "*/index.qmd"
@@ -9,11 +9,15 @@ listing:
     sort-ui: true
     filter-ui: true
     page-size: 3
+execute:
+  echo: false
 ---
+
+<img src="5.png" alt="Foto de Dan Dimmock en Unsplash, modificaciones realizadas en Canva por mi persona" style="max-width:100%;height:auto;">
 
 Esta sección se centra en la programación en R, ideal para el análisis estadístico y la visualización de datos. R es una herramienta potente para estadísticos y científicos de datos.
 
-#### ¿Qué encontrarás aquí?
+**¿Qué encontrarás aquí?**
 
 1. **Introducción a R**: Fundamentos y estructuras de datos básicas.
 2. **Manipulación de Datos con dplyr y tidyr**: Limpieza y preparación de datos.

@@ -1,9 +1,10 @@
 ---
-title: "Mi Primer Post"
-author: "Cesar Prieto"
-date: 2024-06-05
-categories: [estadística, datos]
+title: ""
+execute:
+  echo: false
 ---
+
+<img src="1.png" alt="Foto de Carlos Muza en Unsplash, modificaciones realizadas en Canva por mi persona" style="max-width:100%;height:auto;">
 
 # Introducción
 

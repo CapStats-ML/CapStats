@@ -1,5 +1,5 @@
 ---
-title: "Resúmenes Progrmacion en Python"
+title: ""
 listing:
   - id: Resumenes
     contents: "*/index.qmd"
@@ -9,11 +9,15 @@ listing:
     sort-ui: true
     filter-ui: true
     page-size: 3
+execute:
+  echo: false
 ---
+
+<img src="4.png" alt="Foto de Dan Dimmock en Unsplash, modificaciones realizadas en Canva por mi persona" style="max-width:100%;height:auto;">
 
 En esta sección, exploramos el mundo de la programación en Python con un enfoque en el análisis de datos. Python es ampliamente utilizado por su versatilidad y poder, y ofrece numerosas bibliotecas y herramientas para el análisis de datos.
 
-#### ¿Qué encontrarás aquí?
+**¿Qué encontrarás aquí?**
 
 1. **Introducción a Python**: Conceptos básicos y estructuras de datos fundamentales.
 2. **Manipulación de Datos con Pandas**: Limpieza y transformación de datos de manera eficiente.

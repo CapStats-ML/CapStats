@@ -1,5 +1,5 @@
 ---
-title: "Resúmenes Académicos"
+title: ""
 listing: 
   - id: Resumenes
     contents: "*/index.qmd"
@@ -9,7 +9,11 @@ listing:
     sort-ui: true
     filter-ui: true
     page-size: 3
+execute:
+  echo: false
 ---
+
+<img src="2.png" alt="Foto de Patrick Tomasso en Unsplash, modificaciones realizadas en Canva por mi persona" style="max-width:100%;height:auto;">
 
 Esta seccion está compuesta por todos los resumenes academicos que se han ido desarrollando a lo largo del avance y el paso por la carrera de Estadistica, aunque el material no solo se compone de lo aprendido allí sino tambien de temas que individualmente han sido llamativos para la inclusion de ellos en este proyecto. 
 

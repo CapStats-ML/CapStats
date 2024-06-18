@@ -1,8 +1,0 @@
-
-<div class="container">
-  <h2>Blogs</h2>
-  <div class="gallery">
-    <a href="post1.html"><img src="post1-thumbnail.jpg" alt="Miniatura de Mi Primer Post"></a>
-    <!-- Agrega más miniaturas y enlaces según sea necesario -->
-  </div>
-</div>

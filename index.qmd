@@ -1,7 +1,10 @@
 ---
 title: ""
-format: html
+execute:
+  echo: false
 ---
+
+<img src="Imagenes_WS\6.png" alt="Foto de Carlos Muza en Unsplash, modificaciones realizadas en Canva por mi persona" style="max-width:100%;height:auto;">
 
 <div style="text-align:center">
 # Bienvenidos a CAPSTATS

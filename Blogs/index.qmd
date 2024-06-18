@@ -1,6 +1,10 @@
 ---
-title: "Blogs"
+title: ""
+execute:
+  echo: false
 ---
+
+<img src="7.png" alt="Foto de Bram Naus en Unsplash, modificaciones realizadas en Canva por mi persona" style="max-width:100%;height:auto;">
 
 # Blogs
 

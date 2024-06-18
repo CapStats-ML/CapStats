@@ -1,5 +1,5 @@
 ---
-title: "Resúmenes de Estadística"
+title: ""
 listing:
   - id: Resumenes
     contents: "*/index.qmd"
@@ -9,7 +9,11 @@ listing:
     sort-ui: true
     filter-ui: true
     page-size: 3
+execute:
+  echo: false
 ---
+
+<img src="3.png" alt="Foto de Patrick Tomasso en Unsplash, modificaciones realizadas en Canva por mi persona" style="max-width:100%;height:auto;">
 
 En esta sección, encontrarás una variedad de resúmenes académicos que abarcan diferentes aspectos del campo de la estadística. Estos resúmenes están diseñados para ofrecer una comprensión profunda y accesible de temas clave dentro de la disciplina, permitiéndote mejorar tus conocimientos y habilidades estadísticas.
 
