@@ -4,6 +4,13 @@ website:
   description: "En un mundo lleno de datos"
   repo-url: https://github.com/CapStats-ML/CapStats
   repo-actions: [issue]
+  cookie-consent:
+    type: express
+    style: headline
+    palette: dark
+  google-analytics:
+    tracking-id: "GTM-5PSSLRXP"
+    anonymize-ip: true 
   reader-mode: true
   #favicon: favicon.ico Es el icono en la pestaña web
   navbar:
