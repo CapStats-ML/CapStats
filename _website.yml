@@ -9,7 +9,7 @@ website:
     style: headline
     palette: dark
   google-analytics:
-    tracking-id: "GTM-5PSSLRXP"
+    tracking-id: "G-H0F3YKCDW7"
     anonymize-ip: true 
   reader-mode: true
   #favicon: favicon.ico Es el icono en la pestaña web
