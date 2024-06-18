@@ -33,3 +33,12 @@ Aquí algunos de mis proyectos más interesantes:
    - Tecnologías: [R, Python, Conda, Igraph (Tanto en R como en Python), Networkx]
    - [Enlace al repositorio](https://github.com/CapStats-ML/Social_Networks)
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-H0F3YKCDW7"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-H0F3YKCDW7');
+</script>
