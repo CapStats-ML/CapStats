@@ -26,3 +26,13 @@ Esta sección se centra en la programación en R, ideal para el análisis estad�
 5. **Modelos de Aprendizaje Automático con caret y mlr**: Construcción y evaluación de modelos predictivos.
 6. **Trabajo con Datos Masivos**: Análisis de grandes datasets con data.table y herramientas de integración.
 7. **Casos de Estudio y Proyectos**: Proyectos prácticos para aplicar tus conocimientos.
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-H0F3YKCDW7"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-H0F3YKCDW7');
+</script>

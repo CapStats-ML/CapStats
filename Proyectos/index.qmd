@@ -30,3 +30,13 @@ En esta sección, presento una variedad de proyectos que abarcan desde la academ
 Si bien esta sección destaca algunos de los proyectos más significativos, no dudes en explorar mi [repositorio de GitHub](https://github.com/CapStats-ML) para descubrir más trabajos y colaboraciones. Mi GitHub contiene una colección más amplia de proyectos, cada uno con su propio conjunto de desafíos y aprendizajes.
 
 ## Proyectos Destacados
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-H0F3YKCDW7"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-H0F3YKCDW7');
+</script>

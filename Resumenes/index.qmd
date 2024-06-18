@@ -20,3 +20,15 @@ Esta seccion está compuesta por todos los resumenes academicos que se han ido d
 Aquí se podran encontrar temas principalmente de 3 tematicas grandes las cuales son: Estadística, Programacion en R y Programacion en Python, el cual se ha diseñado de esta manera para poder separar lo estrictamente academico como en el caso de la seccion Estadística, de lo más practico como los topicos encontrados en las secciones de programacion en R y Python.
 
 A continuacion el listado: 
+
+
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-H0F3YKCDW7"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-H0F3YKCDW7');
+</script>
