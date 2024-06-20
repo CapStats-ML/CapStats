@@ -1,5 +1,8 @@
 ---
 title: ""
+format: 
+   html: 
+      smooth-scroll: true
 execute:
   echo: false
 ---

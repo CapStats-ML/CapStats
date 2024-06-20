@@ -6,6 +6,21 @@ author:
 date: "2024-06-12"
 categories: [Probabilidad, Conjuntos, Resumen]
 image: "Espacio de Probabilidad.png"
+format:
+  html:
+    toc: true
+    toc-title: Contents
+    toc-location: left
+    toccolor: #b3cde0
+    html-math-method: katex
+    css: styles.css
+    other-links:
+      - text: NASA Open Data
+        href: https://data.nasa.gov/
+    code-links:
+      - text: Data Import Code
+        icon: file-code
+        href: data-import.py
 ---
 
 # Clase de Estadística: Espacio de Probabilidad
