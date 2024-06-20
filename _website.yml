@@ -3,10 +3,10 @@ website:
   site-url: https://capstats-ml.github.io/CapStats/
   description: "En un mundo lleno de datos"
   repo-url: https://github.com/CapStats-ML/CapStats
-  repo-actions: [issue]
+  repo-actions: [edit, issue]
   cookie-consent:
     type: express
-    style: headline
+    style: simple
     palette: dark
   google-analytics:
     tracking-id: "G-H0F3YKCDW7"
@@ -41,15 +41,19 @@ website:
   page-footer:
     border: true
     background: black
-    left: |
-      **Contact Details:** 
-
-      - **Ubicación:** [Dirección](https://maps.google.com/?q=tu_dirección)
-      - **Correo:** [ceprieto@unal.edu.co](mailto:ceprieto@unal.edu.co)
-      - **Redes Sociales:** 
-        - [GitHub](https://github.com/CapStats-ML/CapStats)
-        - [LinkedIn](https://www.linkedin.com/in/cesar-prietosrt/)
-        - [Twitter](https://www.linkedin.com/in/cesar-prietosrt/)
-        
-      **© 2024 CapStats by Cesar Prieto**
-    right: "" # Puedes dejar esto vacío o agregar más contenido aquí
+    left: 
+      - icon: map
+        href: https://maps.google.com/?q=tu_dirección
+      - icon: envelope-open
+        href: mailto:ceprieto@unal.edu.co
+      - icon: github
+        href: https://github.com/CapStats-ML/CapStats
+      - icon: linkedin
+        href: https://www.linkedin.com/in/cesar-prietosrt/
+      - icon: twitter
+        href: https://www.linkedin.com/in/cesar-prietosrt/
+    center: |
+      **"La vida es muy corta como para no hacer con la estadística aquello que más te gusta"**
+    right: |
+      **© 2024 CapStats** 
+      **by Cesar Prieto**

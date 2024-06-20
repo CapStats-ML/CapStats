@@ -3,17 +3,22 @@ title: ""
 format: 
    html: 
       smooth-scroll: true
+      page-layout: custom
 execute:
   echo: false
 ---
 
-<img src="Imagenes_WS\6.png" alt="Foto de Carlos Muza en Unsplash, modificaciones realizadas en Canva por mi persona" style="max-width:100%;height:auto;">
-
-<div style="text-align:center">
-# Bienvenidos a CAPSTATS
+<div class="page-layout-custom">
+  <img src="Imagenes_WS\6.png" alt="Descripción de la Imagen" class="header-image">
 </div>
 
-Bienvenidos a CAPSTATS, un proyecto [personal](https://capstats-ml.github.io/CapStats/about.html) dedicado a la difusión y divulgación del conocimiento estadístico. Este sitio nace con el propósito de compartir y expandir el saber adquirido durante mis estudios de pregrado en Estadística en la Universidad Nacional de Colombia.
+<div class="page-content">
+
+<div style="text-align:center">
+  <h1 class="title">BIENVENIDOS A CAPSTATS</h1>
+</div>
+
+Este es un proyecto [personal](https://capstats-ml.github.io/CapStats/about.html) dedicado a la difusión y divulgación del conocimiento estadístico. Este sitio nace con el propósito de compartir y expandir el saber adquirido durante mis estudios de pregrado en Estadística en la Universidad Nacional de Colombia.
 
 CAPSTATS es más que un simple blog; es un espacio donde encontrarás una variedad de recursos y proyectos relacionados con la estadística. Aquí podrás explorar artículos sobre métodos estadísticos, análisis de datos, y aplicaciones prácticas en diversas áreas. Mi objetivo es hacer accesible y comprensible la estadística, tanto para estudiantes como para profesionales interesados en esta disciplina.
 
@@ -24,17 +29,7 @@ A través de este sitio, quiero contribuir al desarrollo de una comunidad de apr
    - **Blog:** Publicaciones regulares sobre temas actuales y fundamentales en estadística, análisis de datos y ciencia de datos.
 
 Espero que encuentres este sitio útil e inspirador. ¡Bienvenido a la comunidad CAPSTATS!
-
-## Proyectos Destacados
-Aquí algunos de mis proyectos más interesantes:
-
-1. **[Time-Series]** - Se desarrollo en compañia de un grupo de trabajo el proyecto final de la asignatura de Series de Tiempo.
-   - Tecnologías: [R, Python, Scikit-learn, TensorFlow, Pandas, NumPy]
-   - [Enlace al repositorio](https://github.com/CapStats-ML/Time-series)
-
-2. **[Social_Networks]** - Se desarrollo en compañia de [Alejandro Urrego](https://github.com/aurreg) todo el trabajo de la asignatura de Analisis Estadistico de Redes Sociales con el enfoque de grafos de relacionales
-   - Tecnologías: [R, Python, Conda, Igraph (Tanto en R como en Python), Networkx]
-   - [Enlace al repositorio](https://github.com/CapStats-ML/Social_Networks)
+  </div>
 
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-H0F3YKCDW7"></script>

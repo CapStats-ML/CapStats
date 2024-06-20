@@ -1,8 +1,8 @@
 ---
-title: "Cesar Prieto"
-about:
+title: "CESAR PRIETO"
+about: 
   id: hero-heading
-  template: jolla
+  template: broadside
   image: your-photo.jpg
   links:
     - icon: twitter
@@ -38,9 +38,16 @@ Pregrado en Ciencias Estadistica | Finalizacion 2025
 - **Bases de datos:** PostgreSQL
 - **Herramientas:** Git, VS Code, Conda
 
-## Campos de interes y desarrollo
+## Proyectos Destacados
+Aquí algunos de mis proyectos más interesantes:
 
-Series de Tiempo | Redes de interaccion | Modelado | Analisis Multivariado | Machine Learning | IA 
+   1. **[Time-Series]** - Se desarrollo en compañia de un grupo de trabajo el proyecto final de la asignatura de Series de Tiempo.
+      - Tecnologías: [R, Python, Scikit-learn, TensorFlow, Pandas, NumPy]
+      - [Enlace al repositorio](https://github.com/CapStats-ML/Time-series)
+
+   2. **[Social_Networks]** - Se desarrollo en compañia de [Alejandro Urrego](https://github.com/aurreg) todo el trabajo de la asignatura de Analisis Estadistico de Redes Sociales con el enfoque de grafos de relacionales
+      - Tecnologías: [R, Python, Conda, Igraph (Tanto en R como en Python), Networkx]
+      - [Enlace al repositorio](https://github.com/CapStats-ML/Social_Networks)
 
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-H0F3YKCDW7"></script>
