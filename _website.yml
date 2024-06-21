@@ -36,6 +36,7 @@ website:
       - about.qmd
       - icon: github
         href: https://github.com/CapStats-ML/CapStats
+        aria-label: GitHub
       - icon: linkedin
         href: https://www.linkedin.com/in/cesar-prietosrt/
   page-footer:
@@ -53,7 +54,7 @@ website:
       - icon: twitter
         href: https://www.linkedin.com/in/cesar-prietosrt/
     center: |
-      **"La vida es muy corta como para no hacer con la estadística aquello que más te gusta"**
+      "La vida es muy corta como para no hacer con la estadística aquello que más te gusta"
     right: |
-      **© 2024 CapStats** 
-      **by Cesar Prieto**
+      © 2024 CapStats
+      by Cesar Prieto

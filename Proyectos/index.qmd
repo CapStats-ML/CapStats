@@ -1,7 +1,7 @@
 ---
 title: ""
-listing:
-  - id: Resumenes
+listing: 
+  - id: Proyectos
     contents: "*/index.qmd"
     type: grid
     fields: [image, date, title, subtitle, author]
@@ -9,11 +9,19 @@ listing:
     sort-ui: true
     filter-ui: true
     page-size: 3
+format: 
+   html: 
+      smooth-scroll: true
+      page-layout: custom
 execute:
   echo: false
 ---
 
-<img src="1.png" alt="Foto de Carlos Muza en Unsplash, modificaciones realizadas en Canva por mi persona" style="max-width:100%;height:auto;">
+<div class="page-layout-custom">
+<img src="1.png" alt="Foto de Carlos Muza en Unsplash, modificaciones realizadas en Canva por mi persona" class="header-image">
+<div>
+
+<div class="page-content">
 
 Bienvenido a la sección de proyectos. Aquí encontrarás una colección de trabajos que reflejan tanto esfuerzos personales como colaborativos. Estos proyectos han sido seleccionados por su relevancia y potencial para inspirar y educar a otros.
 
@@ -30,6 +38,11 @@ En esta sección, presento una variedad de proyectos que abarcan desde la academ
 Si bien esta sección destaca algunos de los proyectos más significativos, no dudes en explorar mi [repositorio de GitHub](https://github.com/CapStats-ML) para descubrir más trabajos y colaboraciones. Mi GitHub contiene una colección más amplia de proyectos, cada uno con su propio conjunto de desafíos y aprendizajes.
 
 ## Proyectos Destacados
+
+:::{#Proyectos}
+:::
+<div>
+
 
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-H0F3YKCDW7"></script>

@@ -1,7 +1,7 @@
 ---
 title: ""
-listing:
-  - id: Resumenes
+listing: 
+  - id: Blogs
     contents: "*/index.qmd"
     type: grid
     fields: [image, date, title, subtitle, author]
@@ -9,13 +9,20 @@ listing:
     sort-ui: true
     filter-ui: true
     page-size: 3
+format: 
+   html: 
+      smooth-scroll: true
+      page-layout: custom
 execute:
   echo: false
 ---
 
-<img src="7.png" alt="Foto de Bram Naus en Unsplash, modificaciones realizadas en Canva por mi persona" style="max-width:100%;height:auto;">
+<div class="page-layout-custom">
+<img src="7.png" alt="Foto de Bram Naus en Unsplash, modificaciones realizadas en Canva por mi persona" class="header-image">
+<div>
 
 
+<div class="page-content">
 Bienvenido a nuestro blog, el espacio donde exploramos y compartimos las últimas novedades y curiosidades en los campos de la estadística, el análisis de datos, el Machine Learning y la inteligencia artificial. Aquí encontrarás una mezcla de artículos informativos, tutoriales prácticos y discusiones sobre las tendencias emergentes que están dando forma a estos campos apasionantes.
 
 ### ¿Qué puedes esperar de nuestro blog?
@@ -32,6 +39,9 @@ Algunos de los temas que cubrimos incluyen:
 Nos apasiona compartir conocimientos y fomentar una comunidad de aprendizaje continuo. ¡Esperamos que disfrutes de tu tiempo aquí y encuentres inspiración para tus propios proyectos!
 
 ## Artículos Recientes 
+:::{#Blogs}
+<div>
+
 
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-H0F3YKCDW7"></script>

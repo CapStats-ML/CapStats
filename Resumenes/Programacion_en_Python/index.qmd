@@ -1,7 +1,8 @@
 ---
 title: ""
-listing:
-  - id: Resumenes
+image: 4.png
+listing: 
+  - id: Python
     contents: "*/index.qmd"
     type: grid
     fields: [image, date, title, subtitle, author]
@@ -9,12 +10,19 @@ listing:
     sort-ui: true
     filter-ui: true
     page-size: 3
+format: 
+   html: 
+      smooth-scroll: true
+      page-layout: custom
 execute:
   echo: false
 ---
 
-<img src="4.png" alt="Foto de Dan Dimmock en Unsplash, modificaciones realizadas en Canva por mi persona" style="max-width:100%;height:auto;">
+<div class="page-layout-custom">
+<img src="4.png" alt="Foto de Dan Dimmock en Unsplash, modificaciones realizadas en Canva por mi persona" class="header-image">
+<div>
 
+<div class="page-content">
 En esta sección, exploramos el mundo de la programación en Python con un enfoque en el análisis de datos. Python es ampliamente utilizado por su versatilidad y poder, y ofrece numerosas bibliotecas y herramientas para el análisis de datos.
 
 **¿Qué encontrarás aquí?**
@@ -26,6 +34,10 @@ En esta sección, exploramos el mundo de la programación en Python con un enfoq
 5. **Aprendizaje Automático con Scikit-Learn**: Algoritmos y evaluación de modelos predictivos.
 6. **Trabajando con Big Data**: Manejo de grandes volúmenes de datos con Dask y PySpark.
 7. **Casos de Estudio y Proyectos**: Aplicación práctica en proyectos del mundo real.
+
+::: {#Python}
+:::
+<div>
 
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-H0F3YKCDW7"></script>

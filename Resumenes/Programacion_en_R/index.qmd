@@ -1,7 +1,8 @@
 ---
 title: ""
-listing:
-  - id: Resumenes
+image: 5.png
+listing: 
+  - id: R
     contents: "*/index.qmd"
     type: grid
     fields: [image, date, title, subtitle, author]
@@ -9,12 +10,19 @@ listing:
     sort-ui: true
     filter-ui: true
     page-size: 3
+format: 
+   html: 
+      smooth-scroll: true
+      page-layout: custom
 execute:
   echo: false
 ---
 
-<img src="5.png" alt="Foto de Dan Dimmock en Unsplash, modificaciones realizadas en Canva por mi persona" style="max-width:100%;height:auto;">
+<div class="page-layout-custom">
+<img src="5.png" alt="Foto de Dan Dimmock en Unsplash, modificaciones realizadas en Canva por mi persona" class="header-image">
+<div>
 
+<div class="page-content">
 Esta sección se centra en la programación en R, ideal para el análisis estadístico y la visualización de datos. R es una herramienta potente para estadísticos y científicos de datos.
 
 **¿Qué encontrarás aquí?**
@@ -26,6 +34,9 @@ Esta sección se centra en la programación en R, ideal para el análisis estad�
 5. **Modelos de Aprendizaje Automático con caret y mlr**: Construcción y evaluación de modelos predictivos.
 6. **Trabajo con Datos Masivos**: Análisis de grandes datasets con data.table y herramientas de integración.
 7. **Casos de Estudio y Proyectos**: Proyectos prácticos para aplicar tus conocimientos.
+
+::: {#R}
+<div>
 
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-H0F3YKCDW7"></script>

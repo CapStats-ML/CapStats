@@ -1,6 +1,6 @@
 ---
-title: "Introduccion a la Probabilidad"
-subtitle: "Espacio de Probabilidad"
+title: "TITULO DEL TEMA"
+subtitle: "TEMATICA A LA QUE PERTENECE"
 author: 
   - "CapStats"
 date: "2024-06-12"
@@ -13,7 +13,6 @@ format:
     toc-location: left
     toccolor: #b3cde0
     html-math-method: katex
-    css: styles.css
     other-links:
       - text: NASA Open Data
         href: https://data.nasa.gov/
@@ -21,20 +20,11 @@ format:
       - text: Data Import Code
         icon: file-code
         href: data-import.py
----
-
-# Clase de Estadística: Espacio de Probabilidad
-
-## Objetivos de la Clase
-1. Definir y entender el concepto de espacio de probabilidad.
-2. Identificar y diferenciar los componentes de un espacio de probabilidad.
-3. Aplicar el concepto de espacio de probabilidad en ejemplos prácticos.
-
-## Materiales Necesarios
-- Pizarra y marcadores (o proyector y diapositivas)
-- Calculadora
-- Cuadernos y bolígrafos para los estudiantes
-
+    grid:
+      sidebar-width: 200px
+      body-width: 1300px
+      margin-width: 0px
+      gutter-width: 1.5rem
 ---
 
 ## Parte 1: Introducción Teórica
@@ -68,22 +58,83 @@ Un **espacio de probabilidad** es un modelo matemático que representa todos los
 - \(\mathcal{F} = \{\emptyset, \{Cara\}, \{Cruz\}, \Omega\}\)
 - \(P(\{Cara\}) = \frac{1}{2}\), \(P(\{Cruz\}) = \frac{1}{2}\)
 
----
+## Opciones de Markdown
 
-## Parte 3: Ejercicios
+*italics*, **bold**, ***bold italics***
 
-### Ejercicio 1: Lanzamiento de dos Dados
-1. Definir el espacio muestral \(\Omega\).
-2. Listar algunos eventos posibles.
-3. Asignar probabilidades a los eventos.
+superscript^2^ / subscript~2~
 
-### Ejercicio 2: Experimento de Extracción de una Carta de una Baraja
-1. Definir el espacio muestral \(\Omega\).
-2. Definir un evento específico (por ejemplo, sacar un As).
-3. Calcular la probabilidad del evento.
+~~strikethrough~~
 
-### Ejercicio 3: Bolsa con Bolas de Colores
-1. Una bolsa contiene 3 bolas rojas, 2 verdes y 5 azules. Definir \(\Omega\).
-2. Calcular la probabilidad de sacar una bola roja.
-3. Calcular la probabilidad de sacar una bola de cualquier otro color.
+`verbatim code`
 
+<https://quarto.org> links
+
+[Quarto](https://quarto.org) Hyperlinks
+
+* unordered list
+    + sub-item 1
+    + sub-item 2
+        - sub-sub-item 1
+
+*   item 2
+
+    Continued (indent 4 spaces)
+
+1. ordered list
+2. item 2
+    i) sub-item 1
+         A.  sub-sub-item 1
+
+- [ ] Task 1
+- [x] Task 2
+
+(@)  A list whose numbering
+
+continues after
+
+(@)  an interruption
+
+term
+: definition
+
+| Right | Left | Default | Center |
+|------:|:-----|---------|:------:|
+|   12  |  12  |    12   |    12  |
+|  123  |  123 |   123   |   123  |
+|    1  |    1 |     1   |     1  |
+
+```python
+1 + 1
+```
+
+inline math: $E = mc^{2}$
+
+display math:
+
+$$E = mc^{2}$$
+
+```{mermaid}
+flowchart LR
+  A[Hard edge] --> B(Round edge)
+  B --> C{Decision}
+  C --> D[Result one]
+  C --> E[Result two]
+```
+
+::: {.border}
+This content can be styled with a border
+:::
+
+<div class="border">
+  <p>This content can be styled with a border</p>
+</div>
+
+:::{.callout-note}
+Note that there are five types of callouts, including: 
+`note`, `tip`, `warning`, `caution`, and `important`.
+:::
+
+> Blockquote
+
+La lista sigue
