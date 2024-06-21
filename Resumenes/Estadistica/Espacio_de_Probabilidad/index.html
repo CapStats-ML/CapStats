@@ -9,7 +9,7 @@
 <meta name="author" content="CapStats">
 <meta name="dcterms.date" content="2024-06-12">
 
-<title>CAPSTATS – Introduccion a la Probabilidad</title>
+<title>CAPSTATS – TITULO DEL TEMA</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -21,6 +21,40 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -98,10 +132,55 @@ cookieconsent.run({
 </script> 
   
 <style>html{ scroll-behavior: smooth; }</style>
+<script src="../../../site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="../../../site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="../../../site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
+  <script>window.backupDefine = window.define; window.define = undefined;</script><script src="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.js"></script>
+  <script>document.addEventListener("DOMContentLoaded", function () {
+ var mathElements = document.getElementsByClassName("math");
+ var macros = [];
+ for (var i = 0; i < mathElements.length; i++) {
+  var texText = mathElements[i].firstChild;
+  if (mathElements[i].tagName == "SPAN") {
+   katex.render(texText.data, mathElements[i], {
+    displayMode: mathElements[i].classList.contains('display'),
+    throwOnError: false,
+    macros: macros,
+    fleqn: false
+   });
+}}});
+  </script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css">
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../../../styles.css">
-<link rel="stylesheet" href="styles.css">
 </head>
 
 <body class="floating nav-fixed">
@@ -163,7 +242,7 @@ cookieconsent.run({
 <span class="menu-text">CESAR PRIETO</span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/CapStats-ML/CapStats"> <i class="bi bi-github" role="img">
+    <a class="nav-link" href="https://github.com/CapStats-ML/CapStats"> <i class="bi bi-github" role="img" aria-label="GitHub">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
@@ -192,11 +271,7 @@ cookieconsent.run({
     <h2 id="toc-title">Contents</h2>
    
   <ul>
-  <li><a href="#clase-de-estadística-espacio-de-probabilidad" id="toc-clase-de-estadística-espacio-de-probabilidad" class="nav-link active" data-scroll-target="#clase-de-estadística-espacio-de-probabilidad">Clase de Estadística: Espacio de Probabilidad</a>
-  <ul class="collapse">
-  <li><a href="#objetivos-de-la-clase" id="toc-objetivos-de-la-clase" class="nav-link" data-scroll-target="#objetivos-de-la-clase">Objetivos de la Clase</a></li>
-  <li><a href="#materiales-necesarios" id="toc-materiales-necesarios" class="nav-link" data-scroll-target="#materiales-necesarios">Materiales Necesarios</a></li>
-  <li><a href="#parte-1-introducción-teórica" id="toc-parte-1-introducción-teórica" class="nav-link" data-scroll-target="#parte-1-introducción-teórica">Parte 1: Introducción Teórica</a>
+  <li><a href="#parte-1-introducción-teórica" id="toc-parte-1-introducción-teórica" class="nav-link active" data-scroll-target="#parte-1-introducción-teórica">Parte 1: Introducción Teórica</a>
   <ul class="collapse">
   <li><a href="#definición-de-espacio-de-probabilidad" id="toc-definición-de-espacio-de-probabilidad" class="nav-link" data-scroll-target="#definición-de-espacio-de-probabilidad">1.1 Definición de Espacio de Probabilidad</a></li>
   <li><a href="#componentes-del-espacio-de-probabilidad" id="toc-componentes-del-espacio-de-probabilidad" class="nav-link" data-scroll-target="#componentes-del-espacio-de-probabilidad">1.2 Componentes del Espacio de Probabilidad</a></li>
@@ -206,13 +281,7 @@ cookieconsent.run({
   <li><a href="#ejemplo-1-lanzamiento-de-un-dado" id="toc-ejemplo-1-lanzamiento-de-un-dado" class="nav-link" data-scroll-target="#ejemplo-1-lanzamiento-de-un-dado">Ejemplo 1: Lanzamiento de un Dado</a></li>
   <li><a href="#ejemplo-2-lanzamiento-de-una-moneda" id="toc-ejemplo-2-lanzamiento-de-una-moneda" class="nav-link" data-scroll-target="#ejemplo-2-lanzamiento-de-una-moneda">Ejemplo 2: Lanzamiento de una Moneda</a></li>
   </ul></li>
-  <li><a href="#parte-3-ejercicios" id="toc-parte-3-ejercicios" class="nav-link" data-scroll-target="#parte-3-ejercicios">Parte 3: Ejercicios</a>
-  <ul class="collapse">
-  <li><a href="#ejercicio-1-lanzamiento-de-dos-dados" id="toc-ejercicio-1-lanzamiento-de-dos-dados" class="nav-link" data-scroll-target="#ejercicio-1-lanzamiento-de-dos-dados">Ejercicio 1: Lanzamiento de dos Dados</a></li>
-  <li><a href="#ejercicio-2-experimento-de-extracción-de-una-carta-de-una-baraja" id="toc-ejercicio-2-experimento-de-extracción-de-una-carta-de-una-baraja" class="nav-link" data-scroll-target="#ejercicio-2-experimento-de-extracción-de-una-carta-de-una-baraja">Ejercicio 2: Experimento de Extracción de una Carta de una Baraja</a></li>
-  <li><a href="#ejercicio-3-bolsa-con-bolas-de-colores" id="toc-ejercicio-3-bolsa-con-bolas-de-colores" class="nav-link" data-scroll-target="#ejercicio-3-bolsa-con-bolas-de-colores">Ejercicio 3: Bolsa con Bolas de Colores</a></li>
-  </ul></li>
-  </ul></li>
+  <li><a href="#opciones-de-markdown" id="toc-opciones-de-markdown" class="nav-link" data-scroll-target="#opciones-de-markdown">Opciones de Markdown</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/CapStats-ML/CapStats/edit/main/Resumenes/Estadistica/Espacio_de_Probabilidad/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/CapStats-ML/CapStats/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div><div class="quarto-other-links"><h2>Other Links</h2><ul><li><a href="https://data.nasa.gov/"><i class="bi bi-link-45deg"></i>NASA Open Data</a></li></ul></div><div class="quarto-code-links"><h2>Code Links</h2><ul><li><a href="data-import.py"><i class="bi bi-file-code"></i>Data Import Code</a></li></ul></div></nav>
 </nav>
@@ -225,8 +294,8 @@ cookieconsent.run({
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Introduccion a la Probabilidad</h1>
-<p class="subtitle lead">Espacio de Probabilidad</p>
+<h1 class="title">TITULO DEL TEMA</h1>
+<p class="subtitle lead">TEMATICA A LA QUE PERTENECE</p>
   <div class="quarto-categories">
     <div class="quarto-category">Probabilidad</div>
     <div class="quarto-category">Conjuntos</div>
@@ -260,25 +329,6 @@ cookieconsent.run({
 </header>
 
 
-<section id="clase-de-estadística-espacio-de-probabilidad" class="level1">
-<h1>Clase de Estadística: Espacio de Probabilidad</h1>
-<section id="objetivos-de-la-clase" class="level2">
-<h2 class="anchored" data-anchor-id="objetivos-de-la-clase">Objetivos de la Clase</h2>
-<ol type="1">
-<li>Definir y entender el concepto de espacio de probabilidad.</li>
-<li>Identificar y diferenciar los componentes de un espacio de probabilidad.</li>
-<li>Aplicar el concepto de espacio de probabilidad en ejemplos prácticos.</li>
-</ol>
-</section>
-<section id="materiales-necesarios" class="level2">
-<h2 class="anchored" data-anchor-id="materiales-necesarios">Materiales Necesarios</h2>
-<ul>
-<li>Pizarra y marcadores (o proyector y diapositivas)</li>
-<li>Calculadora</li>
-<li>Cuadernos y bolígrafos para los estudiantes</li>
-</ul>
-<hr>
-</section>
 <section id="parte-1-introducción-teórica" class="level2">
 <h2 class="anchored" data-anchor-id="parte-1-introducción-teórica">Parte 1: Introducción Teórica</h2>
 <section id="definición-de-espacio-de-probabilidad" class="level3">
@@ -322,38 +372,132 @@ cookieconsent.run({
 <li>( = {, {Cara}, {Cruz}, })</li>
 <li>(P({Cara}) = ), (P({Cruz}) = )</li>
 </ul>
-<hr>
 </section>
 </section>
-<section id="parte-3-ejercicios" class="level2">
-<h2 class="anchored" data-anchor-id="parte-3-ejercicios">Parte 3: Ejercicios</h2>
-<section id="ejercicio-1-lanzamiento-de-dos-dados" class="level3">
-<h3 class="anchored" data-anchor-id="ejercicio-1-lanzamiento-de-dos-dados">Ejercicio 1: Lanzamiento de dos Dados</h3>
+<section id="opciones-de-markdown" class="level2">
+<h2 class="anchored" data-anchor-id="opciones-de-markdown">Opciones de Markdown</h2>
+<p><em>italics</em>, <strong>bold</strong>, <strong><em>bold italics</em></strong></p>
+<p>superscript<sup>2</sup> / subscript<sub>2</sub></p>
+<p><del>strikethrough</del></p>
+<p><code>verbatim code</code></p>
+<p><a href="https://quarto.org" class="uri">https://quarto.org</a> links</p>
+<p><a href="https://quarto.org">Quarto</a> Hyperlinks</p>
+<ul>
+<li><p>unordered list</p>
+<ul>
+<li>sub-item 1</li>
+<li>sub-item 2
+<ul>
+<li>sub-sub-item 1</li>
+</ul></li>
+</ul></li>
+<li><p>item 2</p>
+<p>Continued (indent 4 spaces)</p></li>
+</ul>
 <ol type="1">
-<li>Definir el espacio muestral ().</li>
-<li>Listar algunos eventos posibles.</li>
-<li>Asignar probabilidades a los eventos.</li>
+<li>ordered list</li>
+<li>item 2
+<ol type="i">
+<li>sub-item 1
+<ol type="A">
+<li>sub-sub-item 1</li>
+</ol></li>
+</ol></li>
 </ol>
-</section>
-<section id="ejercicio-2-experimento-de-extracción-de-una-carta-de-una-baraja" class="level3">
-<h3 class="anchored" data-anchor-id="ejercicio-2-experimento-de-extracción-de-una-carta-de-una-baraja">Ejercicio 2: Experimento de Extracción de una Carta de una Baraja</h3>
-<ol type="1">
-<li>Definir el espacio muestral ().</li>
-<li>Definir un evento específico (por ejemplo, sacar un As).</li>
-<li>Calcular la probabilidad del evento.</li>
+<ul class="task-list">
+<li><label><input type="checkbox">Task 1</label></li>
+<li><label><input type="checkbox" checked="">Task 2</label></li>
+</ul>
+<ol class="example" type="1">
+<li>A list whose numbering</li>
 </ol>
-</section>
-<section id="ejercicio-3-bolsa-con-bolas-de-colores" class="level3">
-<h3 class="anchored" data-anchor-id="ejercicio-3-bolsa-con-bolas-de-colores">Ejercicio 3: Bolsa con Bolas de Colores</h3>
-<ol type="1">
-<li>Una bolsa contiene 3 bolas rojas, 2 verdes y 5 azules. Definir ().</li>
-<li>Calcular la probabilidad de sacar una bola roja.</li>
-<li>Calcular la probabilidad de sacar una bola de cualquier otro color.</li>
+<p>continues after</p>
+<ol start="2" class="example" type="1">
+<li>an interruption</li>
 </ol>
+<dl>
+<dt>term</dt>
+<dd>
+definition
+</dd>
+</dl>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: right;">Right</th>
+<th style="text-align: left;">Left</th>
+<th>Default</th>
+<th style="text-align: center;">Center</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: right;">12</td>
+<td style="text-align: left;">12</td>
+<td>12</td>
+<td style="text-align: center;">12</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">123</td>
+<td style="text-align: left;">123</td>
+<td>123</td>
+<td style="text-align: center;">123</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">1</td>
+<td style="text-align: left;">1</td>
+<td>1</td>
+<td style="text-align: center;">1</td>
+</tr>
+</tbody>
+</table>
+<div class="sourceCode" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="dv">1</span> <span class="op">+</span> <span class="dv">1</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>inline math: <span class="math inline">E = mc^{2}</span></p>
+<p>display math:</p>
+<p><span class="math display">E = mc^{2}</span></p>
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">flowchart LR
+  A[Hard edge] --&gt; B(Round edge)
+  B --&gt; C{Decision}
+  C --&gt; D[Result one]
+  C --&gt; E[Result two]
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+<div class="border">
+<p>This content can be styled with a border</p>
+</div>
+<div class="border">
+<p>
+This content can be styled with a border
+</p>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Note that there are five types of callouts, including: <code>note</code>, <code>tip</code>, <code>warning</code>, <code>caution</code>, and <code>important</code>.</p>
+</div>
+</div>
+<blockquote class="blockquote">
+<p>Blockquote</p>
+</blockquote>
+<p>La lista sigue</p>
 
 
-</section>
-</section>
 </section>
 
 </main> <!-- /main -->
@@ -815,10 +959,10 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </ul>
     </div>   
     <div class="nav-footer-center">
-<p><strong>“La vida es muy corta como para no hacer con la estadística aquello que más te gusta”</strong></p>
+<p>“La vida es muy corta como para no hacer con la estadística aquello que más te gusta”</p>
 <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/CapStats-ML/CapStats/edit/main/Resumenes/Estadistica/Espacio_de_Probabilidad/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/CapStats-ML/CapStats/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div><div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
     <div class="nav-footer-right">
-<p><strong>© 2024 CapStats</strong> <strong>by Cesar Prieto</strong></p>
+<p>© 2024 CapStats by Cesar Prieto</p>
 </div>
   </div>
 </footer>

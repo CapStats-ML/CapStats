@@ -73,7 +73,7 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-Resumenes .list');
+    const listingTargetEl = window.document.querySelector('#listing-Proyectos .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
@@ -86,7 +86,7 @@ ul.task-list li input[type="checkbox"] {
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-Resumenes'] = new List('listing-Resumenes', options);
+    window['quarto-listings']['listing-Proyectos'] = new List('listing-Proyectos', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -220,7 +220,7 @@ window.Quarto = {
 <span class="menu-text">CESAR PRIETO</span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/CapStats-ML/CapStats"> <i class="bi bi-github" role="img">
+    <a class="nav-link" href="https://github.com/CapStats-ML/CapStats"> <i class="bi bi-github" role="img" aria-label="GitHub">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
@@ -242,20 +242,21 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-layout-custom page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
 <!-- main -->
-<main class="content" id="quarto-document-content">
 
 
 
 
-<p><img src="1.png" alt="Foto de Carlos Muza en Unsplash, modificaciones realizadas en Canva por mi persona" style="max-width:100%;height:auto;"></p>
+<div class="page-layout-custom">
+<img src="1.png" alt="Foto de Carlos Muza en Unsplash, modificaciones realizadas en Canva por mi persona" class="header-image">
+<div>
+<div class="page-content">
 <p>Bienvenido a la sección de proyectos. Aquí encontrarás una colección de trabajos que reflejan tanto esfuerzos personales como colaborativos. Estos proyectos han sido seleccionados por su relevancia y potencial para inspirar y educar a otros.</p>
 <section id="qué-tipo-de-proyectos-encontrarás-aquí" class="level3">
-<h3 class="anchored" data-anchor-id="qué-tipo-de-proyectos-encontrarás-aquí">¿Qué tipo de proyectos encontrarás aquí?</h3>
+<h3 data-anchor-id="qué-tipo-de-proyectos-encontrarás-aquí">¿Qué tipo de proyectos encontrarás aquí?</h3>
 <p>En esta sección, presento una variedad de proyectos que abarcan desde la academia hasta intereses más personales. Algunos de ellos fueron desarrollados durante mi etapa universitaria, mientras que otros son fruto de la curiosidad y el deseo de explorar nuevas fronteras en diversos campos.</p>
 <ul>
 <li><strong>Proyectos Académicos</strong>: Incluyen trabajos realizados durante mi pregrado, que muestran el proceso de aprendizaje y aplicación de conceptos teóricos en situaciones prácticas.</li>
@@ -264,30 +265,16 @@ window.Quarto = {
 </ul>
 </section>
 <section id="acceso-a-más-proyectos" class="level3">
-<h3 class="anchored" data-anchor-id="acceso-a-más-proyectos">Acceso a más proyectos</h3>
+<h3 data-anchor-id="acceso-a-más-proyectos">Acceso a más proyectos</h3>
 <p>Si bien esta sección destaca algunos de los proyectos más significativos, no dudes en explorar mi <a href="https://github.com/CapStats-ML">repositorio de GitHub</a> para descubrir más trabajos y colaboraciones. Mi GitHub contiene una colección más amplia de proyectos, cada uno con su propio conjunto de desafíos y aprendizajes.</p>
 </section>
 <section id="proyectos-destacados" class="level2">
-<h2 class="anchored" data-anchor-id="proyectos-destacados">Proyectos Destacados</h2>
-<!-- Google tag (gtag.js) -->
-<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-H0F3YKCDW7"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-H0F3YKCDW7');
-</script>
-
-
-
-</section>
-
-<div class="quarto-listing quarto-listing-container-grid" id="listing-Resumenes">
+<h2 data-anchor-id="proyectos-destacados">Proyectos Destacados</h2>
+<div id="listing-Proyectos" class="quarto-listing quarto-listing-container-grid">
 <div class="listing-actions-group">
    <div class="input-group input-group-sm quarto-listing-sort">
      <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-     <select id="listing-Resumenes-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-Resumenes'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+     <select id="listing-Proyectos-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-Proyectos'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
        <option value="" disabled="" selected="" hidden="">Order By</option>
        <option value="index" data-direction="asc">Default</option>
          <option value="listing-title" data-direction="asc">
@@ -315,7 +302,27 @@ window.Quarto = {
 <div class="listing-no-matching d-none">
 No matching items
 </div>
-</div></main> <!-- /main -->
+</div>
+<div>
+<!-- Google tag (gtag.js) -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-H0F3YKCDW7"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-H0F3YKCDW7');
+</script>
+
+
+
+</div>
+</section>
+</div>
+</div>
+</div>
+
+
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -774,10 +781,10 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </ul>
     </div>   
     <div class="nav-footer-center">
-<p><strong>“La vida es muy corta como para no hacer con la estadística aquello que más te gusta”</strong></p>
+<p>“La vida es muy corta como para no hacer con la estadística aquello que más te gusta”</p>
 <div class="toc-actions"><ul><li><a href="https://github.com/CapStats-ML/CapStats/edit/main/Proyectos/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/CapStats-ML/CapStats/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div><div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
     <div class="nav-footer-right">
-<p><strong>© 2024 CapStats</strong> <strong>by Cesar Prieto</strong></p>
+<p>© 2024 CapStats by Cesar Prieto</p>
 </div>
   </div>
 </footer>

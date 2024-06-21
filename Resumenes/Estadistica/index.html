@@ -73,7 +73,7 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-Resumenes .list');
+    const listingTargetEl = window.document.querySelector('#listing-Estadistica .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
@@ -86,7 +86,7 @@ ul.task-list li input[type="checkbox"] {
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-Resumenes'] = new List('listing-Resumenes', options);
+    window['quarto-listings']['listing-Estadistica'] = new List('listing-Estadistica', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -220,7 +220,7 @@ window.Quarto = {
 <span class="menu-text">CESAR PRIETO</span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/CapStats-ML/CapStats"> <i class="bi bi-github" role="img">
+    <a class="nav-link" href="https://github.com/CapStats-ML/CapStats"> <i class="bi bi-github" role="img" aria-label="GitHub">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
@@ -242,37 +242,25 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-layout-custom page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
 <!-- main -->
-<main class="content" id="quarto-document-content">
 
 
 
 
-<p><img src="3.png" alt="Foto de Patrick Tomasso en Unsplash, modificaciones realizadas en Canva por mi persona" style="max-width:100%;height:auto;"></p>
+<div class="page-layout-custom">
+<img src="3.png" alt="Foto de Patrick Tomasso en Unsplash, modificaciones realizadas en Canva por mi persona" class="header-image">
+<div>
+<div class="page-content">
 <p>En esta sección, encontrarás una variedad de resúmenes académicos que abarcan diferentes aspectos del campo de la estadística. Estos resúmenes están diseñados para ofrecer una comprensión profunda y accesible de temas clave dentro de la disciplina, permitiéndote mejorar tus conocimientos y habilidades estadísticas.</p>
 <p>Además de los temas mencionados, esta sección ofrece recursos adicionales y consejos prácticos para aplicar la estadística de manera efectiva. Encontrarás demostraciones paso a paso, clases en video, enlaces a software estadístico, y tips para la resolución de problemas. Estos recursos están diseñados para complementar tu aprendizaje y facilitar la aplicación de conceptos estadísticos en diversas situaciones.</p>
-<!-- Google tag (gtag.js) -->
-<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-H0F3YKCDW7"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-H0F3YKCDW7');
-</script>
-
-
-
-
-<div class="quarto-listing quarto-listing-container-grid" id="listing-Resumenes">
+<div id="listing-Estadistica" class="quarto-listing quarto-listing-container-grid">
 <div class="listing-actions-group">
    <div class="input-group input-group-sm quarto-listing-sort">
      <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-     <select id="listing-Resumenes-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-Resumenes'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+     <select id="listing-Estadistica-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-Estadistica'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
        <option value="" disabled="" selected="" hidden="">Order By</option>
        <option value="index" data-direction="asc">Default</option>
          <option value="listing-title" data-direction="asc">
@@ -295,7 +283,7 @@ window.Quarto = {
     </div>
 </div>
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="Probabilidad,Conjuntos,Resumen" data-listing-date-sort="1718168400000" data-listing-file-modified-sort="1718850053078" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="393">
+<div class="g-col-1" data-index="0" data-categories="Probabilidad,Conjuntos,Resumen" data-listing-date-sort="1718168400000" data-listing-file-modified-sort="1719004255484" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="472">
 <a href="../../Resumenes/Estadistica/Espacio_de_Probabilidad/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -303,10 +291,10 @@ window.Quarto = {
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-Introduccion a la Probabilidad
+TITULO DEL TEMA
 </h5>
 <div class="card-subtitle listing-subtitle">
-Espacio de Probabilidad
+TEMATICA A LA QUE PERTENECE
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -374,7 +362,26 @@ Jun 12, 2024
 <div class="listing-no-matching d-none">
 No matching items
 </div>
-</div></main> <!-- /main -->
+</div>
+<div>
+<!-- Google tag (gtag.js) -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-H0F3YKCDW7"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-H0F3YKCDW7');
+</script>
+
+
+
+</div>
+</div>
+</div>
+</div>
+
+
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -833,10 +840,10 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </ul>
     </div>   
     <div class="nav-footer-center">
-<p><strong>“La vida es muy corta como para no hacer con la estadística aquello que más te gusta”</strong></p>
+<p>“La vida es muy corta como para no hacer con la estadística aquello que más te gusta”</p>
 <div class="toc-actions"><ul><li><a href="https://github.com/CapStats-ML/CapStats/edit/main/Resumenes/Estadistica/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/CapStats-ML/CapStats/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div><div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
     <div class="nav-footer-right">
-<p><strong>© 2024 CapStats</strong> <strong>by Cesar Prieto</strong></p>
+<p>© 2024 CapStats by Cesar Prieto</p>
 </div>
   </div>
 </footer>

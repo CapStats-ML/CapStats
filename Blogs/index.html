@@ -73,7 +73,7 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-Resumenes .list');
+    const listingTargetEl = window.document.querySelector('#listing-Blogs .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
@@ -86,7 +86,7 @@ ul.task-list li input[type="checkbox"] {
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-Resumenes'] = new List('listing-Resumenes', options);
+    window['quarto-listings']['listing-Blogs'] = new List('listing-Blogs', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -220,7 +220,7 @@ window.Quarto = {
 <span class="menu-text">CESAR PRIETO</span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/CapStats-ML/CapStats"> <i class="bi bi-github" role="img">
+    <a class="nav-link" href="https://github.com/CapStats-ML/CapStats"> <i class="bi bi-github" role="img" aria-label="GitHub">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
@@ -242,20 +242,21 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-layout-custom page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
 <!-- main -->
-<main class="content" id="quarto-document-content">
 
 
 
 
-<p><img src="7.png" alt="Foto de Bram Naus en Unsplash, modificaciones realizadas en Canva por mi persona" style="max-width:100%;height:auto;"></p>
+<div class="page-layout-custom">
+<img src="7.png" alt="Foto de Bram Naus en Unsplash, modificaciones realizadas en Canva por mi persona" class="header-image">
+<div>
+<div class="page-content">
 <p>Bienvenido a nuestro blog, el espacio donde exploramos y compartimos las últimas novedades y curiosidades en los campos de la estadística, el análisis de datos, el Machine Learning y la inteligencia artificial. Aquí encontrarás una mezcla de artículos informativos, tutoriales prácticos y discusiones sobre las tendencias emergentes que están dando forma a estos campos apasionantes.</p>
 <section id="qué-puedes-esperar-de-nuestro-blog" class="level3">
-<h3 class="anchored" data-anchor-id="qué-puedes-esperar-de-nuestro-blog">¿Qué puedes esperar de nuestro blog?</h3>
+<h3 data-anchor-id="qué-puedes-esperar-de-nuestro-blog">¿Qué puedes esperar de nuestro blog?</h3>
 <p>En esta sección, nos enfocamos en el trabajo de campo que va más allá de simplemente hacer, se trata de aprender, informarse y mantenerse actualizado con los avances más recientes. Ya seas un principiante curioso o un profesional experimentado, encontrarás contenido valioso y entretenido que te ayudará a profundizar en tu conocimiento y habilidades.</p>
 <p>Algunos de los temas que cubrimos incluyen:</p>
 <ul>
@@ -267,26 +268,12 @@ window.Quarto = {
 <p>Nos apasiona compartir conocimientos y fomentar una comunidad de aprendizaje continuo. ¡Esperamos que disfrutes de tu tiempo aquí y encuentres inspiración para tus propios proyectos!</p>
 </section>
 <section id="artículos-recientes" class="level2">
-<h2 class="anchored" data-anchor-id="artículos-recientes">Artículos Recientes</h2>
-<!-- Google tag (gtag.js) -->
-<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-H0F3YKCDW7"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-H0F3YKCDW7');
-</script>
-
-
-
-</section>
-
-<div class="quarto-listing quarto-listing-container-grid" id="listing-Resumenes">
+<h2 data-anchor-id="artículos-recientes">Artículos Recientes</h2>
+<div id="listing-Blogs" class="quarto-listing quarto-listing-container-grid">
 <div class="listing-actions-group">
    <div class="input-group input-group-sm quarto-listing-sort">
      <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-     <select id="listing-Resumenes-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-Resumenes'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+     <select id="listing-Blogs-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-Blogs'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
        <option value="" disabled="" selected="" hidden="">Order By</option>
        <option value="index" data-direction="asc">Default</option>
          <option value="listing-title" data-direction="asc">
@@ -314,7 +301,13 @@ window.Quarto = {
 <div class="listing-no-matching d-none">
 No matching items
 </div>
-</div></main> <!-- /main -->
+</div>
+</section>
+</div>
+</div>
+</div>
+
+
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -773,11 +766,14 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </ul>
     </div>   
     <div class="nav-footer-center">
-<p><strong>“La vida es muy corta como para no hacer con la estadística aquello que más te gusta”</strong></p>
-<div class="toc-actions"><ul><li><a href="https://github.com/CapStats-ML/CapStats/edit/main/Blogs/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/CapStats-ML/CapStats/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div><div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
+      <div class="footer-contents">"La vida es muy corta como para no hacer con la estadística aquello que más te gusta"
+</div>  
+    <div class="toc-actions"><ul><li><a href="https://github.com/CapStats-ML/CapStats/edit/main/Blogs/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/CapStats-ML/CapStats/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div><div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
     <div class="nav-footer-right">
-<p><strong>© 2024 CapStats</strong> <strong>by Cesar Prieto</strong></p>
-</div>
+      <div class="footer-contents">© 2024 CapStats
+by Cesar Prieto
+</div>  
+    </div>
   </div>
 </footer>
 
