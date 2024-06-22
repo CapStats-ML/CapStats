@@ -8,11 +8,12 @@ categories: [Probabilidad, Conjuntos, Resumen]
 image: "Espacio de Probabilidad.png"
 format:
   html:
+    smooth-scroll: true
+    page-layout:  article
     toc: true
     toc-title: Contents
     toc-location: left
     toccolor: #b3cde0
-    html-math-method: katex
     other-links:
       - text: NASA Open Data
         href: https://data.nasa.gov/
@@ -20,11 +21,8 @@ format:
       - text: Data Import Code
         icon: file-code
         href: data-import.py
-    grid:
-      sidebar-width: 200px
-      body-width: 1300px
-      margin-width: 0px
-      gutter-width: 1.5rem
+execute:
+  echo: false
 ---
 
 ## Parte 1: Introducción Teórica
